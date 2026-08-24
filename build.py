@@ -52,13 +52,29 @@ def display_name(name):
                      for w in words)
 
 
+def find_svgs():
+    """Yields (relative_subfolder_or_None, filename, full_path), sorted for
+    deterministic output. Files directly in icons/ have subfolder=None;
+    files in icons/<subfolder>/... use the top-level subfolder name."""
+    results = []
+    for entry in sorted(os.listdir(ICONS_DIR)):
+        full = os.path.join(ICONS_DIR, entry)
+        if os.path.isdir(full):
+            for root, _, files in os.walk(full):
+                for fn in sorted(files):
+                    if fn.lower().endswith(".svg"):
+                        results.append((entry, fn, os.path.join(root, fn)))
+        elif entry.lower().endswith(".svg"):
+            results.append((None, entry, full))
+    return results
+
+
 def load_icons():
     entries = []
     svg_paths = {}
-    files = sorted(f for f in os.listdir(ICONS_DIR) if f.lower().endswith(".svg"))
-    for idx, fn in enumerate(files):
+    for idx, (subfolder, fn, full_path) in enumerate(find_svgs()):
         name = os.path.splitext(fn)[0]
-        with open(os.path.join(ICONS_DIR, fn), encoding="utf-8", errors="ignore") as fh:
+        with open(full_path, encoding="utf-8", errors="ignore") as fh:
             text = fh.read()
         paths = re.findall(r'<path[^>]*\bd="([^"]+)"', text)
         d = " ".join(paths)
@@ -67,10 +83,14 @@ def load_icons():
             continue
         key = f"p{idx}"
         svg_paths[key] = d
+        # Icons placed in a subfolder (e.g. icons/custom/) get that folder's
+        # name as their category, so they show up as their own filter in the
+        # picker instead of being mixed into the keyword-guessed buckets.
+        category = subfolder.lower().replace(" ", "-") if subfolder else guess_category(name)
         entries.append({
             "name": name,
             "displayName": display_name(name),
-            "category": guess_category(name),
+            "category": category,
             "svgPathKey": key,
         })
     return entries, svg_paths
