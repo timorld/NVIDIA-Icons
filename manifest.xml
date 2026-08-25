@@ -28,7 +28,7 @@
   </Hosts>
 
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://timorld.github.io/NVIDIA-Icons/taskpane.html?v=2"/>
+    <SourceLocation DefaultValue="https://timorld.github.io/NVIDIA-Icons/taskpane.html?v=3"/>
   </DefaultSettings>
 
   <Permissions>ReadWriteDocument</Permissions>
@@ -84,7 +84,7 @@
       <bt:Urls>
         <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://timorld.github.io/NVIDIA-Icons"/>
         <bt:Url id="Commands.Url" DefaultValue="https://timorld.github.io/NVIDIA-Icons/commands.html"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://timorld.github.io/NVIDIA-Icons/taskpane.html?v=2"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://timorld.github.io/NVIDIA-Icons/taskpane.html?v=3"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="GetStarted.Title" DefaultValue="NVIDIA Icon Library"/>
