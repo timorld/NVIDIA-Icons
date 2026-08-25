@@ -69,6 +69,16 @@ def find_svgs():
     return results
 
 
+def polygon_to_path_d(points):
+    # "points" is a flat list of numbers (space and/or comma separated),
+    # taken two at a time as (x, y) pairs.
+    nums = re.findall(r"-?\d*\.?\d+(?:e-?\d+)?", points)
+    coords = [f"{nums[i]},{nums[i + 1]}" for i in range(0, len(nums) - 1, 2)]
+    if not coords:
+        return ""
+    return "M " + " L ".join(coords) + " Z"
+
+
 def load_icons():
     entries = []
     svg_paths = {}
@@ -77,7 +87,8 @@ def load_icons():
         with open(full_path, encoding="utf-8", errors="ignore") as fh:
             text = fh.read()
         paths = re.findall(r'<path[^>]*\bd="([^"]+)"', text)
-        d = " ".join(paths)
+        polygons = re.findall(r'<(?:polygon|polyline)[^>]*\bpoints="([^"]+)"', text)
+        d = " ".join(paths + [polygon_to_path_d(p) for p in polygons])
         if not d:
             print(f"  WARNING: no <path d=...> found in {fn}, skipping")
             continue
