@@ -11,14 +11,20 @@ built from a folder of local SVG files.
    ```
    python build.py
    ```
-3. Commit and push both `icons/` and the regenerated `taskpane.html`:
+3. Bump the cache-busting version number in `manifest.xml` — find the two
+   `?v=N` query strings (in `SourceLocation` and the `Taskpane.Url` bt:Url)
+   and increment N. PowerPoint's embedded browser caches `taskpane.html` by
+   URL, so without this step it may keep showing the old icon set even after
+   you push new ones.
+4. Commit and push `icons/`, `taskpane.html`, and `manifest.xml`:
    ```
-   git add icons taskpane.html
+   git add icons taskpane.html manifest.xml
    git commit -m "Add new icons"
    git push
    ```
-4. PowerPoint always loads the latest `taskpane.html` from GitHub Pages — no
-   reinstall needed, just close and reopen the task pane (or refresh it).
+5. In PowerPoint, close and reopen the task pane. If it still shows old
+   icons, remove the add-in (My Add-ins → right-click → Remove) and re-add
+   it from the Shared Folder catalog — that forces a full reload.
 
 ## One-time setup
 
