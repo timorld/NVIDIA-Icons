@@ -213,36 +213,108 @@
     }
     .icon-grid.size-small .icon-label { display: none; }
 
-    /* Insert overlay */
-    .insert-overlay {
+    /* Insert (+) button */
+    .insert-btn {
       position: absolute;
-      inset: 0;
-      background: rgba(118,185,0,0.95);
+      top: 4px;
+      right: 4px;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: var(--nvidia-green);
+      color: #fff;
+      border: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transform: scale(0.8);
+      transition: opacity 0.12s, transform 0.12s, background 0.1s;
+      cursor: pointer;
+      padding: 0;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.25);
+    }
+    .icon-card:hover .insert-btn {
+      opacity: 1;
+      transform: scale(1);
+    }
+    .insert-btn:hover { background: #66a300; }
+
+    /* Category sections */
+    .category-section { margin-bottom: 14px; }
+    .category-section:first-child .category-title { margin-top: 0; }
+    .category-title {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+      color: #888;
+      margin: 12px 0 6px;
+      padding-bottom: 4px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    /* Detail view ("icon page") */
+    .detail-view {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px;
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      gap: 4px;
-      opacity: 0;
-      transition: opacity 0.15s;
-      border-radius: 6px;
+      gap: 10px;
     }
-    .icon-card:hover .insert-overlay { opacity: 1; }
-    .overlay-btn {
-      background: rgba(255,255,255,0.2);
-      border: 1px solid rgba(255,255,255,0.5);
-      color: #fff;
-      font-size: 9px;
-      font-weight: 700;
-      letter-spacing: 0.4px;
-      padding: 3px 7px;
-      border-radius: 4px;
+    .detail-back {
+      align-self: flex-start;
+      background: none;
+      border: none;
+      color: var(--nvidia-green);
+      font-size: 12px;
+      font-weight: 600;
       cursor: pointer;
-      width: 80%;
+      padding: 0;
+      margin-bottom: 6px;
+    }
+    .detail-back:hover { text-decoration: underline; }
+    .detail-icon-wrap {
+      width: 140px;
+      height: 140px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--nvidia-dark);
+      background: var(--bg);
+      border-radius: 10px;
+    }
+    .detail-icon-wrap svg { width: 100%; height: 100%; }
+    .detail-name {
+      font-size: 15px;
+      font-weight: 700;
       text-align: center;
+    }
+    .detail-category {
+      font-size: 11px;
+      color: #888;
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+    }
+    .detail-insert-btn {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--nvidia-green);
+      color: #fff;
+      border: none;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 8px 16px;
+      border-radius: 20px;
+      cursor: pointer;
+      margin-top: 6px;
       transition: background 0.1s;
     }
-    .overlay-btn:hover { background: rgba(255,255,255,0.35); }
+    .detail-insert-btn:hover { background: #66a300; }
 
     /* Empty state */
     .empty-state {
@@ -287,39 +359,43 @@
     <p id="subtitle">Loading icons…</p>
   </div>
 
-  <div class="controls">
-    <div class="search-wrap">
-      <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-          d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
-      </svg>
-      <input id="searchInput" type="text"
-        placeholder="Search icons… (e.g. car, AI, cloud)">
-    </div>
-    <div class="filters-row">
-      <select id="categorySelect"></select>
-      <div class="size-btns">
-        <button class="size-btn" data-size="small">S</button>
-        <button class="size-btn active" data-size="medium">M</button>
-        <button class="size-btn" data-size="large">L</button>
+  <div id="browseView">
+    <div class="controls">
+      <div class="search-wrap">
+        <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+        </svg>
+        <input id="searchInput" type="text"
+          placeholder="Search icons… (e.g. car, AI, cloud)">
+      </div>
+      <div class="filters-row">
+        <select id="categorySelect"></select>
+        <div class="size-btns">
+          <button class="size-btn" data-size="small">S</button>
+          <button class="size-btn active" data-size="medium">M</button>
+          <button class="size-btn" data-size="large">L</button>
+        </div>
       </div>
     </div>
+
+    <div class="results-bar">
+      <span id="resultsCount"></span>
+      <button class="clear-btn" id="clearBtn" style="display:none">Clear</button>
+    </div>
+
+    <div id="iconGrid"></div>
+    <div id="emptyState" class="empty-state" style="display:none">
+      <svg width="40" height="40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+          d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+      </svg>
+      <p>No icons found</p>
+      <small>Try a different search or category</small>
+    </div>
   </div>
 
-  <div class="results-bar">
-    <span id="resultsCount"></span>
-    <button class="clear-btn" id="clearBtn" style="display:none">Clear</button>
-  </div>
-
-  <div class="icon-grid size-medium" id="iconGrid"></div>
-  <div id="emptyState" class="empty-state" style="display:none">
-    <svg width="40" height="40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-        d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
-    </svg>
-    <p>No icons found</p>
-    <small>Try a different search or category</small>
-  </div>
+  <div id="detailView" class="detail-view" style="display:none"></div>
 
   <div id="toast"></div>
 
@@ -533,43 +609,77 @@ const emptyState = document.getElementById('emptyState');
 const resultsCount = document.getElementById('resultsCount');
 const clearBtn = document.getElementById('clearBtn');
 const subtitle = document.getElementById('subtitle');
+const browseView = document.getElementById('browseView');
+const detailView = document.getElementById('detailView');
 
 function makeSVG(pathData, size) {
-  const dim = size === 'small' ? 28 : size === 'medium' ? 36 : 44;
+  const dim = size === 'small' ? 28 : size === 'medium' ? 36 : size === 'large' ? 44 : size === 'detail' ? 140 : 36;
   return `<svg viewBox="0 0 48 48" width="${dim}" height="${dim}" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="${pathData}" fill="currentColor"/>
   </svg>`;
 }
 
+function groupByCategory(list) {
+  const map = new Map();
+  list.forEach(icon => {
+    if (!map.has(icon.category)) map.set(icon.category, []);
+    map.get(icon.category).push(icon);
+  });
+  return allCategories
+    .filter(cat => cat !== 'all' && map.has(cat))
+    .map(cat => ({ category: cat, items: map.get(cat) }));
+}
+
+function makeInsertBtn(icon, pathData) {
+  const btn = document.createElement('button');
+  btn.className = 'insert-btn';
+  btn.title = 'Insert as SVG';
+  btn.setAttribute('aria-label', 'Insert as SVG');
+  btn.innerHTML = `<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+    <path stroke-linecap="round" d="M12 5v14M5 12h14"/>
+  </svg>`;
+  btn.addEventListener('click', (e) => { e.stopPropagation(); copySvg(icon, pathData); });
+  return btn;
+}
+
 function render() {
   const { filtered, isSemantic } = filterIcons();
   grid.innerHTML = '';
-  grid.className = `icon-grid size-${iconSize}`;
 
   if (filtered.length === 0) {
     grid.style.display = 'none';
     emptyState.style.display = 'block';
   } else {
-    grid.style.display = 'grid';
+    grid.style.display = 'block';
     emptyState.style.display = 'none';
 
     const fragment = document.createDocumentFragment();
-    filtered.forEach(icon => {
-      const pathData = svgPaths[icon.svgPathKey] || '';
-      const card = document.createElement('div');
-      card.className = 'icon-card';
-      card.title = icon.displayName;
-      card.innerHTML = `
-        <div class="icon-svg-wrap">${makeSVG(pathData, iconSize)}</div>
-        <div class="icon-label">${icon.displayName}</div>
-        <div class="insert-overlay">
-          <button class="overlay-btn btn-insert">⬇ Insert PNG</button>
-          <button class="overlay-btn btn-svg">↓ Insert SVG</button>
-        </div>
-      `;
-      card.querySelector('.btn-insert').addEventListener('click', (e) => { e.stopPropagation(); insertIcon(icon, pathData); });
-      card.querySelector('.btn-svg').addEventListener('click', (e) => { e.stopPropagation(); copySvg(icon, pathData); });
-      fragment.appendChild(card);
+    groupByCategory(filtered).forEach(({ category, items }) => {
+      const section = document.createElement('div');
+      section.className = 'category-section';
+
+      const title = document.createElement('div');
+      title.className = 'category-title';
+      title.textContent = `${formatCategory(category)} · ${items.length}`;
+      section.appendChild(title);
+
+      const sectionGrid = document.createElement('div');
+      sectionGrid.className = `icon-grid size-${iconSize}`;
+      items.forEach(icon => {
+        const pathData = svgPaths[icon.svgPathKey] || '';
+        const card = document.createElement('div');
+        card.className = 'icon-card';
+        card.title = icon.displayName;
+        card.innerHTML = `
+          <div class="icon-svg-wrap">${makeSVG(pathData, iconSize)}</div>
+          <div class="icon-label">${icon.displayName}</div>
+        `;
+        card.appendChild(makeInsertBtn(icon, pathData));
+        card.addEventListener('click', () => openDetail(icon, pathData));
+        sectionGrid.appendChild(card);
+      });
+      section.appendChild(sectionGrid);
+      fragment.appendChild(section);
     });
     grid.appendChild(fragment);
   }
@@ -581,6 +691,31 @@ function render() {
   }
   resultsCount.innerHTML = countHTML;
   clearBtn.style.display = (searchQuery || selectedCategory !== 'all') ? 'inline' : 'none';
+}
+
+// ── DETAIL VIEW ("icon page") ───────────────────────────────────────────────
+function openDetail(icon, pathData) {
+  browseView.style.display = 'none';
+  detailView.style.display = 'flex';
+  detailView.innerHTML = `
+    <button class="detail-back" id="detailBack">‹ Back</button>
+    <div class="detail-icon-wrap">${makeSVG(pathData, 'detail')}</div>
+    <div class="detail-name">${icon.displayName}</div>
+    <div class="detail-category">${formatCategory(icon.category)}</div>
+    <button class="detail-insert-btn" id="detailInsertBtn">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+        <path stroke-linecap="round" d="M12 5v14M5 12h14"/>
+      </svg>
+      Insert as SVG
+    </button>
+  `;
+  document.getElementById('detailBack').addEventListener('click', closeDetail);
+  document.getElementById('detailInsertBtn').addEventListener('click', () => copySvg(icon, pathData));
+}
+
+function closeDetail() {
+  detailView.style.display = 'none';
+  browseView.style.display = 'block';
 }
 
 // ── SVG PATH → OOXML CONVERTER ───────────────────────────────────────────────
@@ -731,56 +866,6 @@ function getCenteredViewBox(pathData) {
   }
 }
 
-// ── INSERT AS PNG ────────────────────────────────────────────────────────────
-function insertIcon(icon, pathData) {
-  if (!officeReady) { showToast('Office not ready yet…', 'error'); return; }
-
-  const SIZE = 200;
-  const canvas = document.createElement('canvas');
-  canvas.width = SIZE; canvas.height = SIZE;
-  const ctx = canvas.getContext('2d');
-
-  const vb = getCenteredViewBox(pathData);
-
-  function doInsert() {
-    const base64 = canvas.toDataURL('image/png').split(',')[1];
-    // No imageWidth/imageHeight → PowerPoint inserts the PNG at its native
-    // pixel dimensions (SIZE × SIZE), so it stays exactly 200×200 pixels
-    // instead of being resampled to fit a fixed-inch box.
-    Office.context.document.setSelectedDataAsync(base64, {
-      coercionType: Office.CoercionType.Image,
-      imageLeft: 1, imageTop: 1
-    }, r => {
-      if (r.status === Office.AsyncResultStatus.Succeeded) {
-        showToast('✓ ' + icon.displayName + ' inserted (' + SIZE + '×' + SIZE + ' px)', 'success');
-      } else {
-        showToast('Insert failed: ' + r.error.message, 'error');
-      }
-    });
-  }
-
-  // Try Path2D render (fast, no network) — centered using measured viewBox
-  try {
-    ctx.save();
-    ctx.scale(SIZE / vb.size, SIZE / vb.size);
-    ctx.translate(-vb.x, -vb.y);
-    ctx.fillStyle = '#1a1a1a';
-    ctx.fill(new Path2D(pathData));
-    ctx.restore();
-    // Check canvas actually has pixels
-    const data = ctx.getImageData(0, 0, SIZE, SIZE).data;
-    if (data.some(v => v > 0)) { doInsert(); return; }
-  } catch(e) {}
-
-  // Fallback: render via SVG data URI (also using the centered viewBox)
-  ctx.clearRect(0, 0, SIZE, SIZE);
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${vb.x} ${vb.y} ${vb.size} ${vb.size}" width="${SIZE}" height="${SIZE}"><path d="${pathData}" fill="#1a1a1a"/></svg>`;
-  const img = new Image();
-  img.onload = () => { ctx.drawImage(img, 0, 0); doInsert(); };
-  img.onerror = () => showToast('Failed to render icon', 'error');
-  img.src = 'data:image/svg+xml;base64,' + btoa(unescape(encodeURIComponent(svg)));
-}
-
 // ── INSERT AS SVG ────────────────────────────────────────────────────────────
 // On Windows / PowerPoint Online: insert SVG directly onto the slide using
 // the XmlSvg coercion (modern Office). Falls back to file download on Mac
@@ -902,7 +987,7 @@ clearBtn.addEventListener('click', () => {
 // ── OFFICE INIT ───────────────────────────────────────────────────────────────
 Office.onReady(info => {
   officeReady = true;
-  subtitle.textContent = `${icons.length} icons · click any to insert`;
+  subtitle.textContent = `${icons.length} icons · click to view, hover + to insert`;
   render();
 });
 
