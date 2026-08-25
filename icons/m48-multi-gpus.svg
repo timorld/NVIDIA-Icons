@@ -1,25 +1,39 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_1531_1261)">
-<path d="M7.5 27.5V41.5H21.5V27.5H7.5ZM20.5 28.5V32.6318L19.8125 32.8457V36.1543L20.5 36.3682V40.5H16.3682L16.1543 39.8125H12.8457L12.6318 40.5H8.49999V36.3682L9.18749 36.1543V32.8457L8.49999 32.6318V28.5H12.6318L12.8457 29.1875H16.1543L16.3682 28.5H20.5Z" fill="black"/>
-<path d="M12.5 30.5H10.5V32.5H12.5V30.5Z" fill="black"/>
-<path d="M15.5 30.5H13.5V32.5H15.5V30.5Z" fill="black"/>
-<path d="M18.5 30.5H16.5V32.5H18.5V30.5Z" fill="black"/>
-<path d="M12.5 33.5H10.5V35.5H12.5V33.5Z" fill="black"/>
-<path d="M15.5 33.5H13.5V35.5H15.5V33.5Z" fill="black"/>
-<path d="M18.5 33.5H16.5V35.5H18.5V33.5Z" fill="black"/>
-<path d="M12.5 36.5H10.5V38.5H12.5V36.5Z" fill="black"/>
-<path d="M15.5 36.5H13.5V38.5H15.5V36.5Z" fill="black"/>
-<path d="M18.5 36.5H16.5V38.5H18.5V36.5Z" fill="black"/>
-<path d="M11.5 23.5V26.5H12.5V24.5H16.6318L16.8457 25.1875H20.1543L20.3682 24.5H24.5V28.6318L23.8125 28.8457V32.1543L24.5 32.3682V36.5H22.5V37.5H25.5V23.5H11.5Z" fill="black"/>
-<path d="M26.5 32.5V33.5H29.5V19.5H15.5V22.5H16.5V20.5H20.6318L20.8457 21.1875H24.1543L24.3682 20.5H28.5V24.6318L27.8125 24.8457V28.1543L28.5 28.3682V32.5H26.5Z" fill="black"/>
-<path d="M7.49219 9.5L7.50049 26.5005L8.50049 26.4995L8.49268 14.4951H39.5V37.5H26.5V38.5H40.5V9.5H7.49219ZM8.49219 13.4951V10.5H39.5V13.4951H8.49219Z" fill="black"/>
-<path d="M38.5127 11.4951H36.4873V12.4951H38.5127V11.4951Z" fill="black"/>
-<path d="M35.4873 11.4951H33.4619V12.4951H35.4873V11.4951Z" fill="black"/>
-<path d="M32.4873 11.4951H30.4619V12.4951H32.4873V11.4951Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_1531_1261">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-multi-gpus">
+      <g class="cls-2">
+        <path d="M12.32,27.5h-4.82v14h14v-14h-9.18ZM20.5,28.5v4.13l-.69.21v3.31l.69.21v4.13h-4.13l-.21-.69h-3.31l-.21.69h-4.13v-4.13l.69-.21v-3.31l-.69-.21v-4.13h4.13l.21.69h3.31l.21-.69h4.13Z"/>
+        <rect x="10.5" y="30.5" width="2" height="2"/>
+        <rect x="13.5" y="30.5" width="2" height="2"/>
+        <rect x="16.5" y="30.5" width="2" height="2"/>
+        <rect x="10.5" y="33.5" width="2" height="2"/>
+        <rect x="13.5" y="33.5" width="2" height="2"/>
+        <rect x="16.5" y="33.5" width="2" height="2"/>
+        <rect x="10.5" y="36.5" width="2" height="2"/>
+        <rect x="13.5" y="36.5" width="2" height="2"/>
+        <rect x="16.5" y="36.5" width="2" height="2"/>
+        <polygon points="16.32 23.5 11.5 23.5 11.5 26.5 12.5 26.5 12.5 24.5 16.63 24.5 16.85 25.19 20.15 25.19 20.37 24.5 24.5 24.5 24.5 28.63 23.81 28.85 23.81 32.15 24.5 32.37 24.5 36.5 22.5 36.5 22.5 37.5 25.5 37.5 25.5 32.68 25.5 28.32 25.5 23.5 20.68 23.5 16.32 23.5"/>
+        <polygon points="26.5 32.5 26.5 33.5 29.5 33.5 29.5 28.68 29.5 24.32 29.5 19.5 24.68 19.5 20.32 19.5 15.5 19.5 15.5 22.5 16.5 22.5 16.5 20.5 20.63 20.5 20.85 21.19 24.15 21.19 24.37 20.5 28.5 20.5 28.5 24.63 27.81 24.85 27.81 28.15 28.5 28.37 28.5 32.5 26.5 32.5"/>
+        <path d="M7.49,9.5v17s1.01,0,1.01,0v-12s31,0,31,0v23.01h-13v1h14V9.5H7.49ZM8.49,10.5h31.01v2.99H8.49v-2.99Z"/>
+        <rect x="36.49" y="11.49" width="2.03" height="1"/>
+        <rect x="33.46" y="11.49" width="2.03" height="1"/>
+        <rect x="30.46" y="11.49" width="2.02" height="1"/>
+      </g>
+    </g>
+  </g>
 </svg>

@@ -1,10 +1,24 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_1169_817)">
-<path d="M23.3501 15.5H20.647L20.3897 14.5H4.5V33.5H43.5V14.5H23.6182L23.3501 15.5ZM24.3857 15.5H42.5V32.5H5.5V15.5H19.6143L19.8716 16.5H24.1177L24.3857 15.5Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_1169_817">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-l40">
+      <g class="cls-2">
+        <path d="M23.35,15.5h-2.7l-.26-1H4.5v19h39V14.5h-19.88l-.27,1ZM24.39,15.5h18.11v17H5.5V15.5h14.11l.26,1h4.25l.27-1Z"/>
+      </g>
+    </g>
+  </g>
 </svg>

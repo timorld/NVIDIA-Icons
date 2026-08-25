@@ -1,10 +1,33 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_141_2079)">
-<path d="M7.5 9.5V38.5H40.5V9.5H7.5ZM39.5 37.5H8.5V14.495H39.5V37.5ZM39.5 13.495H8.5V10.5H39.5V13.495ZM36 20.495H17V19.495H36V20.495ZM36 26.495H17V25.495H36V26.495ZM36 32.495H17V31.495H36V32.495ZM12 27.495H15V24.495H12V27.495ZM13 25.495H14V26.495H13V25.495ZM12 33.495H15V30.495H12V33.495ZM13 31.495H14V32.495H13V31.495ZM13.5 21.702L11.793 20L12.5 19.293L13.5 20.293L15.5 18.293L16.207 19L13.5 21.702ZM32.475 12.5H30.475V11.5H32.475V12.5ZM35.502 12.5H33.502V11.5H35.502V12.5ZM38.511 12.5H36.511V11.5H38.511V12.5Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_141_2079">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-pc-window-application-browser">
+      <g class="cls-2">
+        <rect x="16.5" y="19.5" width="19" height="1"/>
+        <rect x="16.5" y="25.5" width="19" height="1"/>
+        <rect x="16.5" y="31.5" width="19" height="1"/>
+        <path d="M11.5,27.5h3v-3h-3v3ZM12.5,25.5h1v1h-1v-1Z"/>
+        <path d="M11.5,33.5h3v-3h-3v3ZM12.5,31.5h1v1h-1v-1Z"/>
+        <polygon points="15.71 19 15 18.29 13 20.29 12 19.29 11.29 20 13 21.71 15.71 19"/>
+        <path d="M7.5,9.5v29h33V9.5H7.5ZM39.5,37.5H8.5V14.5h31v23ZM8.5,10.5h31v3H8.5v-3Z"/>
+        <rect x="30.46" y="11.49" width="2" height="1"/>
+        <rect x="33.49" y="11.49" width="2" height="1"/>
+        <rect x="36.5" y="11.49" width="2" height="1"/>
+      </g>
+    </g>
+  </g>
 </svg>

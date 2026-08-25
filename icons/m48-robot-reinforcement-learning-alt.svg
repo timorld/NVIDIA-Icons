@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath-4);
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-5 {
+        opacity: 0;
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-2" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-2" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="cls-2" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect class="cls-2" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-robot-reinforcement-learning-alt">
+      <g class="cls-7">
+        <g class="cls-3">
+          <path d="M13.5,40.5h26V13.5H13.5v27ZM38.5,39.5H14.5V14.5h24v25Z"/>
+          <polygon points="36.5 10.5 10.5 10.5 10.5 37.5 11.5 37.5 11.5 11.5 36.5 11.5 36.5 10.5"/>
+          <polygon points="33.5 7.5 7.5 7.5 7.5 34.5 8.5 34.5 8.5 8.5 33.5 8.5 33.5 7.5"/>
+          <g class="cls-6">
+            <path d="M24.25,38.5h3.26v-2h6v-1h-1.1c.09-.26.12-.53.06-.82l-1.02-3.96-2.44-2.1-.02-.23c.17.07.36.11.56.11.4,0,.78-.16,1.06-.44.59-.58.59-1.54,0-2.12l-2.59-2.65h-.01c-.46-.48-1.1-.79-1.83-.79h-2.17c-1.38.01-2.5,1.13-2.5,2.51v4.99c0,.83.67,1.5,1.5,1.5.04,0,.07,0,.11-.01l-1.29,5.15c-.07.29-.05.59.05.86h-1.38v1h3.74ZM26.5,35.5v2h-.85s.03-.06.04-.09l1.53-5.37.33.25.77,3.07c.01.05.04.09.06.14h-1.88ZM31.49,34.9c.03.15,0,.3-.1.41-.09.12-.24.18-.39.18h-1.22c-.23,0-.43-.16-.48-.38l-.77-3.08.55-.54h1.54l.88,3.4ZM29.89,26.65c.09.09.15.22.15.35s-.05.26-.15.35c-.19.19-.52.19-.71,0l-.32-.32-.14-1.58,1.17,1.2ZM28.49,29.5l1.16,1h-.99l-.79.78-2.37-1.78h2.99ZM24.5,23.51h1.67c.78,0,1.43.58,1.49,1.36l.32,3.63h-3.48v-4.99ZM24.36,30.63c.09-.19.14-.4.14-.63l1.86,1.4-.6,2.1h-1.56l-.45-.45.61-2.42ZM23,30.5c-.28,0-.5-.22-.5-.5v-4.99c0-.65.42-1.21,1-1.41v6.34l-.08.31c-.09.15-.24.25-.42.25M22.8,36.88l.67-2.7.32.32h1.69l-.75,2.64c-.06.21-.26.36-.48.36h-.97c-.15,0-.3-.07-.39-.19-.1-.12-.13-.28-.09-.43"/>
+            <path d="M26,22.5c1.38,0,2.5-1.12,2.5-2.5v-2c0-.83-.67-1.5-1.5-1.5h-2c-.83,0-1.5.67-1.5,1.5v2c0,1.38,1.12,2.5,2.5,2.5M24.5,18c0-.28.22-.5.5-.5h2c.28,0,.5.22.5.5v2c0,.83-.67,1.5-1.5,1.5s-1.5-.67-1.5-1.5v-2Z"/>
+            <g class="cls-5">
+              <g class="cls-4">
+                <g class="cls-5">
+                  <g class="cls-1">
+                    <rect width="48" height="48"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

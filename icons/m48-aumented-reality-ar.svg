@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-aumented-reality-ar">
+      <g class="cls-3">
+        <g class="cls-2">
+          <path d="M21.19,38l.43,1.5h4.76l.4-1.5-.43-1.5h-4.76l-.4,1.5ZM22.37,37.5h3.24l.14.5-.13.5h-3.24l-.14-.5.13-.5ZM16.5,16.95v7.34l7.5,4.29,7.5-4.28v-7.58l-7.5-4.29-7.28,4.17s-.02.01-.03.02l-.19.11v.22s0,0,0,0M17.5,17.86l6,3.43v5.85l-6-3.43v-5.84ZM24.5,27.14v-5.85l6-3.43v5.85l-6,3.43ZM30,17l-6,3.42-5.99-3.42,5.99-3.43,6,3.43ZM43.02,22.77l-7.52-4.33V6.5H12.5v11.9l-7.52,4.27,7.52,4.32v14.51h23v-14.46l7.52-4.26ZM41,22.77l-5.5,3.12v-6.29l5.5,3.17ZM26.88,7.5l-.27,1h-5.24l-.29-1h5.79ZM20.05,7.5l.57,2h6.76l.53-2h6.58v18.95l-10.53,5.97-10.47-6.01V7.5h6.55ZM7,22.67l5.5-3.13v6.29l-5.5-3.16ZM34.5,40.5H13.5v-12.94l10.47,6.01,10.53-5.97v12.9Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

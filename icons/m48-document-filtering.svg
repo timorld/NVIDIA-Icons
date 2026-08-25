@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath-6);
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath-7);
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath-15);
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath-4);
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-9);
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath-10);
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath-11);
+      }
+
+      .cls-8 {
+        fill: none;
+      }
+
+      .cls-9 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-10 {
+        clip-path: url(#clippath-5);
+      }
+
+      .cls-11 {
+        clip-path: url(#clippath-8);
+      }
+
+      .cls-12 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-13 {
+        opacity: 0;
+      }
+
+      .cls-14 {
+        clip-path: url(#clippath-12);
+      }
+
+      .cls-15 {
+        clip-path: url(#clippath-14);
+      }
+
+      .cls-16 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-17 {
+        clip-path: url(#clippath-13);
+      }
+
+      .cls-18 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-8" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-8" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-8" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="cls-8" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect class="cls-8" x="11.5" y="7.5" width="14" height="19"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <rect class="cls-8" x="9.5" y="14.5" width="14" height="14"/>
+    </clipPath>
+    <clipPath id="clippath-6">
+      <rect class="cls-8" x="7.5" y="16.5" width="14" height="14"/>
+    </clipPath>
+    <clipPath id="clippath-7">
+      <rect class="cls-8" x="14.5" y="15.5" width="8" height="1"/>
+    </clipPath>
+    <clipPath id="clippath-8">
+      <rect class="cls-8" x="14.5" y="18.5" width="8" height="1"/>
+    </clipPath>
+    <clipPath id="clippath-9">
+      <rect class="cls-8" x="14.5" y="21.5" width="4" height="1"/>
+    </clipPath>
+    <clipPath id="clippath-10">
+      <rect class="cls-8" x="26.5" y="21.5" width="14" height="19"/>
+    </clipPath>
+    <clipPath id="clippath-11">
+      <rect class="cls-8" x="29.5" y="29.5" width="8" height="1"/>
+    </clipPath>
+    <clipPath id="clippath-12">
+      <rect class="cls-8" x="29.5" y="32.5" width="8" height="1"/>
+    </clipPath>
+    <clipPath id="clippath-13">
+      <rect class="cls-8" x="29.5" y="35.5" width="4" height="1"/>
+    </clipPath>
+    <clipPath id="clippath-14">
+      <rect class="cls-8" x="27.5" y="13.5" width="7.5" height="6.21"/>
+    </clipPath>
+    <clipPath id="clippath-15">
+      <rect class="cls-8" x="15.5" y="31.5" width="6.21" height="7.5"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-document-filtering">
+      <g class="cls-18">
+        <g class="cls-9">
+          <g class="cls-16">
+            <g class="cls-13">
+              <g class="cls-12">
+                <rect width="48" height="48"/>
+              </g>
+            </g>
+            <g class="cls-13">
+              <g class="cls-4">
+                <path d="M11.5,12.79v13.71h14V7.5h-8.71l-5.29,5.29ZM16.5,9.21v3.29h-3.29l3.29-3.29ZM24.5,25.5h-12v-12h5v-5h7v17Z"/>
+              </g>
+            </g>
+            <g class="cls-13">
+              <g class="cls-10">
+                <polygon points="10.5 14.5 9.5 14.5 9.5 28.5 23.5 28.5 23.5 27.5 10.5 27.5 10.5 14.5"/>
+              </g>
+            </g>
+            <g class="cls-13">
+              <g class="cls-1">
+                <polygon points="21.5 29.5 8.5 29.5 8.5 16.5 7.5 16.5 7.5 30.5 21.5 30.5 21.5 29.5"/>
+              </g>
+            </g>
+            <g class="cls-13">
+              <g class="cls-2">
+                <rect x="14.5" y="15.5" width="8" height="1"/>
+              </g>
+            </g>
+            <g class="cls-13">
+              <g class="cls-11">
+                <rect x="14.5" y="18.5" width="8" height="1"/>
+              </g>
+            </g>
+            <g class="cls-13">
+              <g class="cls-5">
+                <rect x="14.5" y="21.5" width="4" height="1"/>
+              </g>
+            </g>
+            <g class="cls-13">
+              <g class="cls-6">
+                <path d="M31.79,21.5l-5.29,5.29v13.71h14v-19h-8.71ZM31.5,23.21v3.29h-3.29l3.29-3.29ZM39.5,39.5h-12v-12h5v-5h7v17Z"/>
+              </g>
+            </g>
+            <g class="cls-13">
+              <g class="cls-7">
+                <rect x="29.5" y="29.5" width="8" height="1"/>
+              </g>
+            </g>
+            <g class="cls-13">
+              <g class="cls-14">
+                <rect x="29.5" y="32.5" width="8" height="1"/>
+              </g>
+            </g>
+            <g class="cls-13">
+              <g class="cls-17">
+                <rect x="29.5" y="35.5" width="4" height="1"/>
+              </g>
+            </g>
+            <g class="cls-13">
+              <g class="cls-15">
+                <polygon points="32.5 17.79 31 16.29 31 17.71 33 19.71 35 17.71 35 16.29 33.5 17.79 33.5 13.5 27.5 13.5 27.5 14.5 32.5 14.5 32.5 17.79"/>
+              </g>
+            </g>
+            <g class="cls-13">
+              <g class="cls-3">
+                <polygon points="18.29 35 19.79 36.5 16.5 36.5 16.5 31.5 15.5 31.5 15.5 37.5 19.79 37.5 18.29 39 19.71 39 21.71 37 19.71 35 18.29 35"/>
+              </g>
+            </g>
+          </g>
+          <path d="M11.5,12.79v13.71h14V7.5h-8.71l-5.29,5.29ZM16.5,9.21v3.29h-3.29l3.29-3.29ZM24.5,25.5h-12v-12h5v-5h7v17Z"/>
+          <path d="M11.5,12.79v13.71h14V7.5h-8.71l-5.29,5.29ZM16.5,9.21v3.29h-3.29l3.29-3.29ZM24.5,25.5h-12v-12h5v-5h7v17Z"/>
+          <polygon points="10.5 14.5 9.5 14.5 9.5 28.5 23.5 28.5 23.5 27.5 10.5 27.5 10.5 14.5"/>
+          <polygon points="10.5 14.5 9.5 14.5 9.5 28.5 23.5 28.5 23.5 27.5 10.5 27.5 10.5 14.5"/>
+          <polygon points="21.5 29.5 8.5 29.5 8.5 16.5 7.5 16.5 7.5 30.5 21.5 30.5 21.5 29.5"/>
+          <polygon points="21.5 29.5 8.5 29.5 8.5 16.5 7.5 16.5 7.5 30.5 21.5 30.5 21.5 29.5"/>
+          <rect x="14.5" y="15.5" width="8" height="1"/>
+          <rect x="14.5" y="15.5" width="8" height="1"/>
+          <rect x="14.5" y="18.5" width="8" height="1"/>
+          <rect x="14.5" y="18.5" width="8" height="1"/>
+          <rect x="14.5" y="21.5" width="4" height="1"/>
+          <rect x="14.5" y="21.5" width="4" height="1"/>
+          <path d="M31.79,21.5l-5.29,5.29v13.71h14v-19h-8.71ZM31.5,23.21v3.29h-3.29l3.29-3.29ZM39.5,39.5h-12v-12h5v-5h7v17Z"/>
+          <path d="M31.79,21.5l-5.29,5.29v13.71h14v-19h-8.71ZM31.5,23.21v3.29h-3.29l3.29-3.29ZM39.5,39.5h-12v-12h5v-5h7v17Z"/>
+          <rect x="29.5" y="29.5" width="8" height="1"/>
+          <rect x="29.5" y="29.5" width="8" height="1"/>
+          <rect x="29.5" y="32.5" width="8" height="1"/>
+          <rect x="29.5" y="32.5" width="8" height="1"/>
+          <rect x="29.5" y="35.5" width="4" height="1"/>
+          <rect x="29.5" y="35.5" width="4" height="1"/>
+          <polygon points="32.5 17.79 31 16.29 31 17.71 33 19.71 35 17.71 35 16.29 33.5 17.79 33.5 13.5 27.5 13.5 27.5 14.5 32.5 14.5 32.5 17.79"/>
+          <polygon points="32.5 17.79 31 16.29 31 17.71 33 19.71 35 17.71 35 16.29 33.5 17.79 33.5 13.5 27.5 13.5 27.5 14.5 32.5 14.5 32.5 17.79"/>
+          <polygon points="18.29 35 19.79 36.5 16.5 36.5 16.5 31.5 15.5 31.5 15.5 37.5 19.79 37.5 18.29 39 19.71 39 21.71 37 19.71 35 18.29 35"/>
+          <polygon points="18.29 35 19.79 36.5 16.5 36.5 16.5 31.5 15.5 31.5 15.5 37.5 19.79 37.5 18.29 39 19.71 39 21.71 37 19.71 35 18.29 35"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

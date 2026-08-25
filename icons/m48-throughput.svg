@@ -1,10 +1,24 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_141_2067)">
-<path d="M31.5 18.5L33.653 10.5H20.617L18.463 18.5H4.5V19.5H43.5V18.5H31.5ZM21.384 11.5H32.348L30.463 18.5H19.5L21.384 11.5ZM4.5 29.5H15.5L13.347 37.5H26.383L28.537 29.5H43.5V28.5H4.5V29.5ZM25.617 36.5H14.652L16.537 29.5H27.5L25.617 36.5ZM20.5 23.5H24.793L22.293 21H23.707L26.707 24L23.707 27H22.293L24.793 24.5H20.5V23.5ZM8.5 23.5H12.793L10.293 21H11.707L14.707 24L11.707 27H10.293L12.793 24.5H8.5V23.5ZM33.5 23.5H37.793L35.293 21H36.707L39.707 24L36.707 27H35.293L37.793 24.5H33.5V23.5Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_141_2067">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-throughput">
+      <g class="cls-2">
+        <path d="M31.5,18.5l2.15-8h-13.03l-2.15,8H4.5v1h39v-1h-12ZM21.38,11.5h10.97l-1.89,7h-10.96l1.88-7ZM4.5,29.5h11l-2.15,8h13.03l2.15-8h14.96v-1H4.5v1ZM25.62,36.5h-10.96l1.89-7h10.96l-1.88,7ZM20.5,23.5h4.29l-2.5-2.5h1.41l3,3-3,3h-1.41l2.5-2.5h-4.29v-1ZM8.5,23.5h4.29l-2.5-2.5h1.41l3,3-3,3h-1.41l2.5-2.5h-4.29v-1ZM33.5,23.5h4.29l-2.5-2.5h1.41l3,3-3,3h-1.41l2.5-2.5h-4.29v-1Z"/>
+      </g>
+    </g>
+  </g>
 </svg>

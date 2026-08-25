@@ -1,10 +1,24 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_141_2006)">
-<path d="M42.5 33.5V10.5H5.5V33.5H20.347L19.547 36.5H16.5V37.5H31.5V36.5H28.456L27.651 33.5H42.5ZM6.5 11.5H41.5V32.5H6.5V11.5ZM27.42 36.5H20.579L21.379 33.5H26.613L27.42 36.5ZM26.52 15.5H21.653L18.278 24.5H22.5V30.743L28.9 20.5H24.71L26.52 15.5ZM27.102 21.5L23.502 27.257V23.5H19.722L22.347 16.5H25.092L23.292 21.5H27.102Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_141_2006">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-app-acceleration-power-pc">
+      <g class="cls-2">
+        <path d="M42.5,33.5V10.5H5.5v23h14.85l-.8,3h-3.04v1h15v-1h-3.04l-.8-3h14.85ZM6.5,11.5h35v21H6.5V11.5ZM27.42,36.5h-6.84l.8-3h5.23l.8,3ZM26.52,15.5h-4.86l-3.38,9h4.22v6.24l6.4-10.24h-4.19l1.8-5ZM27.1,21.5l-3.6,5.76v-3.76h-3.78l2.62-7h2.75l-1.8,5h3.81Z"/>
+      </g>
+    </g>
+  </g>
 </svg>

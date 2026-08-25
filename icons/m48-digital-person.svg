@@ -1,21 +1,44 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_1201_786)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M24 24.5C19.08 24.5 16.59 20.26 16.59 11.91C16.59 7.82 19.91 4.5 24 4.5C28.09 4.5 31.41 7.82 31.41 11.91C31.41 20.62 29.12 24.5 24 24.5ZM24 5.5C20.47 5.5 17.59 8.38 17.59 11.91C17.59 19.6 19.75 23.5 24 23.5C27.17 23.5 30.41 22.12 30.41 11.91C30.41 8.38 27.53 5.5 24 5.5Z" fill="black"/>
-<path d="M26.11 25.76L24 28.23L21.89 25.76L21.74 25.23L13.94 30H15.86L21.13 26.77L22.05 30H23.09L22.54 28.06L24 29.77L25.46 28.06L24.91 30H25.95L26.87 26.77L32.14 30H34.06L26.26 25.23L26.11 25.76Z" fill="black"/>
-<path d="M20.5 33.5H19.5V40.5H20.5V33.5Z" fill="black"/>
-<path d="M17.5 34.5H18.5V39.5H17.5V34.5Z" fill="black"/>
-<path d="M16.5 35.5H15.5V38.5H16.5V35.5Z" fill="black"/>
-<path d="M21.5 34.5H22.5V39.5H21.5V34.5Z" fill="black"/>
-<path d="M24.5 35.5H23.5V38.5H24.5V35.5Z" fill="black"/>
-<path d="M27.5 33.5H28.5V40.5H27.5V33.5Z" fill="black"/>
-<path d="M26.5 34.5H25.5V39.5H26.5V34.5Z" fill="black"/>
-<path d="M29.5 34.5H30.5V39.5H29.5V34.5Z" fill="black"/>
-<path d="M32.5 35.5H31.5V38.5H32.5V35.5Z" fill="black"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 31V43H40.5V31H7.5ZM39.5 42H8.5V32H39.5V42Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_1201_786">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-digital-person">
+      <g class="cls-3">
+        <g class="cls-2">
+          <path d="M24,24.5c-4.92,0-7.41-4.24-7.41-12.59,0-4.09,3.32-7.41,7.41-7.41s7.41,3.32,7.41,7.41c0,8.71-2.28,12.59-7.41,12.59M24,5.5c-3.54,0-6.41,2.88-6.41,6.41,0,7.69,2.16,11.59,6.41,11.59,3.17,0,6.41-1.38,6.41-11.59,0-3.53-2.88-6.41-6.41-6.41"/>
+          <polygon points="26.11 25.76 24 28.23 21.89 25.76 21.74 25.23 13.94 30 15.86 30 21.13 26.77 22.05 30 23.09 30 22.54 28.06 24 29.77 25.46 28.06 24.91 30 25.95 30 26.87 26.77 32.14 30 34.06 30 26.26 25.23 26.11 25.76"/>
+          <path d="M7.5,43h33v-12H7.5v12ZM39.5,42H8.5v-10h31v10Z"/>
+          <rect x="19.5" y="33.5" width="1" height="7"/>
+          <rect x="17.5" y="34.5" width="1" height="5"/>
+          <rect x="15.5" y="35.5" width="1" height="3"/>
+          <rect x="21.5" y="34.5" width="1" height="5"/>
+          <rect x="23.5" y="35.5" width="1" height="3"/>
+          <rect x="27.5" y="33.5" width="1" height="7"/>
+          <rect x="25.5" y="34.5" width="1" height="5"/>
+          <rect x="29.5" y="34.5" width="1" height="5"/>
+          <rect x="31.5" y="35.5" width="1" height="3"/>
+        </g>
+      </g>
+    </g>
+  </g>
 </svg>

@@ -1,15 +1,29 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_1318_1027)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M11.5 37.4775H6.5V10.4775H11.5V37.4775ZM10.5 11.4775H7.5V36.4775H10.5V11.4775Z" fill="black"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M17.5 33.4775H12.5V14.4775H17.5V33.4775ZM16.5 15.4775H13.5V32.4775H16.5V15.4775Z" fill="black"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M30.5 33.4775H35.5V14.4775H30.5V33.4775ZM31.5 15.4775H34.5V32.4775H31.5V15.4775Z" fill="black"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M36.5 37.4775V10.4775H41.5V37.4775H36.5ZM37.5 36.4775H40.5V11.4775H37.5V36.4775Z" fill="black"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M24.5 29.4775H29.5V19.4775H24.5V29.4775ZM25.5 20.4775H28.5V28.4775H25.5V20.4775Z" fill="black"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M23.5 29.4775H18.5V19.4775H23.5V29.4775ZM22.5 20.4775H19.5V28.4775H22.5V20.4775Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_1318_1027">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-edify">
+      <g class="cls-2">
+        <path d="M12.5,33.48h5V14.48h-5v19ZM13.5,15.48h3v17h-3V15.48Z"/>
+        <path d="M6.5,37.48h5V10.48h-5v27ZM7.5,11.48h3v25h-3V11.48Z"/>
+        <path d="M30.5,33.48h5V14.48h-5v19ZM31.5,15.48h3v17h-3V15.48Z"/>
+        <path d="M36.5,37.48h5V10.48h-5v27ZM40.5,36.48h-3V11.48h3v25Z"/>
+        <path d="M24.5,29.48h5v-10h-5v10ZM25.5,20.48h3v8h-3v-8Z"/>
+        <path d="M18.5,29.48h5v-10h-5v10ZM19.5,20.48h3v8h-3v-8Z"/>
+      </g>
+    </g>
+  </g>
 </svg>

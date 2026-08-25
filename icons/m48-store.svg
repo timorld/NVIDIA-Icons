@@ -1,22 +1,36 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_1169_815)">
-<path d="M11.5 23.5H10.5V26.5H11.5V23.5Z" fill="black"/>
-<path d="M10.5 13.5H11.5V16.5H10.5V13.5Z" fill="black"/>
-<path d="M15.5 13.5H14.5V16.5H15.5V13.5Z" fill="black"/>
-<path d="M18.5 13.5H19.5V16.5H18.5V13.5Z" fill="black"/>
-<path d="M11.5 18.5H10.5V21.5H11.5V18.5Z" fill="black"/>
-<path d="M10.5 28.5H11.5V31.5H10.5V28.5Z" fill="black"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M32.5 30.5H25.5V34.5H32.5V30.5ZM31.5 33.5H26.5V31.5H31.5V33.5Z" fill="black"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M34.5 36.5V27L32.7314 20.5H26.4998L26.4981 14.5034L39.5 14.5V36.4995H40.5V13.5L38.4981 13.5005V10.5H33.4981V11.5H30.4981V13.5024L25.4981 13.5039L25.4998 20.5H22.5V10.5H7.5V36.5H4.5V37.5H43.5V36.5L34.5 36.5ZM34.4981 11.5H37.4981V13.5H34.4981V11.5ZM31.4981 12.5H33.4981V13.5H31.4981V12.5ZM31.9697 21.5L33.344 26.5H30.3674L29.0415 21.5H31.9697ZM28.0081 21.5L29.3484 26.5H26.3674L25.0415 21.5H28.0081ZM29.5 27.5V28.5H26.5V27.5H29.5ZM22.9919 21.5H24.0081L25.3484 26.5H21.6516L22.9919 21.5ZM25.5 27.5V28.5H21.5V27.5H25.5ZM20.6165 26.5H17.6516L18.9919 21.5H21.9568L20.6165 26.5ZM13.648 26.5L14.9585 21.5H17.9568L16.6165 26.5H13.648ZM16.512 27.5L16.5039 28.5H13.5V27.5H16.512ZM17.5 27.5H20.512L20.5039 28.5H17.5L17.5 27.5ZM12.5029 29H12.5V36.5H8.5V11.5H21.5V20.5H19.5V18.5H18.5V20.5H15.5V18.5H14.5V20.5H14.187L12.5161 26.8731L12.5029 29ZM19 36.5H16.5V31.3462H19V36.5ZM22.5 36.5H20V31.3462H22.5V36.5ZM33.5 36.5H23.5V30.3462H15.5V36.5H13.5V29.5H33.5V36.5ZM33.5 28.5H30.5V27.5H33.5V28.5Z" fill="black"/>
-<path d="M36.4976 21.499H37.4976V24.499H36.4976V21.499Z" fill="black"/>
-<path d="M37.4976 16.499H36.4976V19.499H37.4976V16.499Z" fill="black"/>
-<path d="M28.4976 16.499H29.4976V19.499H28.4976V16.499Z" fill="black"/>
-<path d="M37.4976 26.499H36.4976V29.499H37.4976V26.499Z" fill="black"/>
-<path d="M32.4976 16.499H33.4976V19.499H32.4976V16.499Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_1169_815">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-store">
+      <g class="cls-2">
+        <path d="M34.5,36.5v-9.5l-1.77-6.5h-6.23v-6s13,0,13,0v22h1V13.5h-2v-3h-5v1h-3v2h-5s0,7,0,7h-3v-10H7.5v26h-3v1h39v-1h-9ZM34.5,11.5h3v2h-3v-2ZM31.5,12.5h2v1h-2v-1ZM31.97,21.5l1.37,5h-2.98l-1.33-5h2.93ZM25.5,21.5h2.51l1.34,5h-2.98l-1.33-5h.46ZM29.5,28.5h-3v-1h3v1ZM22.99,21.5h1.02l1.34,5h-3.7l1.34-5ZM25.5,28.5h-4v-1h4v1ZM20.62,26.5h-2.96l1.34-5h2.97l-1.34,5ZM13.65,26.5l1.31-5h3l-1.34,5h-2.97ZM16.51,27.5v1h-3.01v-1h3.01ZM17.5,27.5h3.01v1h-3.01v-1ZM12.5,29h0v7.5h-4V11.5h13v9h-2v-2h-1v2h-3v-2h-1v2h-.31l-1.67,6.37v2.13ZM19,36.5h-2.5v-5.15h2.5v5.15ZM22.5,36.5h-2.5v-5.15h2.5v5.15ZM33.5,36.5h-10v-6.15h-8v6.15h-2v-7h20v7ZM33.5,28.5h-3v-1h3v1Z"/>
+        <path d="M32.5,30.5h-7v4h7v-4ZM31.5,33.5h-5v-2h5v2Z"/>
+        <rect x="36.5" y="21.5" width="1" height="3"/>
+        <rect x="36.5" y="16.5" width="1" height="3"/>
+        <rect x="28.5" y="16.5" width="1" height="3"/>
+        <rect x="36.5" y="26.5" width="1" height="3"/>
+        <rect x="32.5" y="16.5" width="1" height="3"/>
+        <rect x="10.5" y="23.5" width="1" height="3"/>
+        <rect x="10.5" y="13.5" width="1" height="3"/>
+        <rect x="14.5" y="13.5" width="1" height="3"/>
+        <rect x="18.5" y="13.5" width="1" height="3"/>
+        <rect x="10.5" y="18.5" width="1" height="3"/>
+        <rect x="10.5" y="28.5" width="1" height="3"/>
+      </g>
+    </g>
+  </g>
 </svg>

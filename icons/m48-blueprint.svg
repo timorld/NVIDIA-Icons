@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-4 {
+        opacity: 0;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-blueprint">
+      <g class="cls-6">
+        <g class="cls-2">
+          <g class="cls-5">
+            <path d="M14.5,12.5v-1.5c0-1.93-1.57-3.5-3.5-3.5s-3.5,1.57-3.5,3.5v25c0,1.93,1.57,3.5,3.5,3.5h29.5V12.5H14.5ZM8.5,11c0-1.38,1.12-2.5,2.5-2.5s2.5,1.12,2.5,2.5v22.55c-.64-.65-1.52-1.05-2.5-1.05s-1.86.4-2.5,1.05V11ZM39.5,38.5H11c-1.38,0-2.5-1.12-2.5-2.5s1.12-2.5,2.5-2.5,2.5,1.12,2.5,2.5h1V13.5h25v25Z"/>
+            <path d="M31.5,29.08v-10.41l-7.5-3.21-7.5,3.21v10.41l7.48,3.21,7.52-3.21ZM17.5,19.83l1.89.99.46-.89-1.69-.89,5.84-2.5,5.84,2.5-1.69.89.46.89,1.89-.99v8.59l-6,2.56v-2.23h-1v2.25l-6-2.58v-8.59Z"/>
+            <path d="M23.98,36.54l7.52-3.21v-3.09l-7.52,3.21-7.48-3.22v3.09l7.48,3.21ZM17.5,31.76l6.48,2.79,6.52-2.79v.91l-6.52,2.79-6.48-2.78v-.91Z"/>
+            <polygon points="32.21 15.5 38 15.5 38 14.5 31.79 14.5 30.29 16 31 16.71 32.21 15.5"/>
+            <polygon points="31 34.29 30.29 35 31.79 36.5 38 36.5 38 35.5 32.21 35.5 31 34.29"/>
+            <rect x="33.5" y="20.5" width="5" height="1"/>
+            <rect x="33.5" y="22.5" width="5" height="1"/>
+            <rect x="33.5" y="24.5" width="3" height="1"/>
+            <g class="cls-4">
+              <g class="cls-3">
+                <rect width="48" height="48"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

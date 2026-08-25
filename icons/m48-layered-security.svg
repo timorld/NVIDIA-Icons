@@ -1,10 +1,37 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_24_240)">
-<path d="M40.5 7.5H13.5V10.5H10.5V13.5H7.5V40.5H34.5V37.5H37.5V34.5H40.5V7.5ZM33.5 39.5H8.5V14.5H33.5V39.5ZM36.5 36.5H34.5V13.5H11.5V11.5H36.5V36.5ZM39.5 33.5H37.5V10.5H14.5V8.5H39.5V33.5ZM26.3906 35.5L27.5 31.0606L27.4795 25.5H25.5V23C25.5 21.8065 25.0259 20.6619 24.182 19.818C23.3381 18.9741 22.1935 18.5 21 18.5C19.8065 18.5 18.6619 18.9741 17.818 19.818C16.9741 20.6619 16.5 21.8065 16.5 23V25.5H14.5205L14.5 30.9981L15.6094 35.5H26.3906ZM17.5 23C17.5 22.0717 17.8687 21.1815 18.5251 20.5251C19.1815 19.8687 20.0717 19.5 21 19.5C21.9283 19.5 22.8185 19.8687 23.4749 20.5251C24.1313 21.1815 24.5 22.0717 24.5 23V25.5H17.5V23ZM15.5166 26.5H26.4834L26.5 30.9394L25.6094 34.5H16.3906L15.5 30.9394L15.5166 26.5ZM21.5 32.5H20.5V28.5H21.5V32.5Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_24_240">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-layered-security">
+      <g class="cls-3">
+        <polygon points="14 7.5 14 8.5 39.5 8.5 39.5 34 40.5 34 40.5 7.5 14 7.5"/>
+        <polygon points="11 11.5 36.5 11.5 36.5 37 37.5 37 37.5 10.5 11 10.5 11 11.5"/>
+        <path d="M7.5,40.5h27V13.5H7.5v27ZM8.5,14.5h25v25H8.5V14.5Z"/>
+        <g class="cls-2">
+          <path d="M25.5,25.5v-2.5c0-2.48-2.02-4.5-4.5-4.5s-4.5,2.02-4.5,4.5v2.5h-1.98l-.02,5.5,1.11,4.5h10.78l1.11-4.44-.02-5.56h-1.98ZM17.5,23c0-1.93,1.57-3.5,3.5-3.5s3.5,1.57,3.5,3.5v2.5h-7v-2.5ZM25.61,34.5h-9.22l-.89-3.56.02-4.44h10.97l.02,4.44-.89,3.56Z"/>
+          <rect x="20.5" y="28.5" width="1" height="4"/>
+        </g>
+      </g>
+    </g>
+  </g>
 </svg>

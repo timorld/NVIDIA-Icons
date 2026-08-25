@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath-4);
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-5 {
+        opacity: 0;
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-2" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-2" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="cls-2" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect class="cls-2" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-nim-cloud">
+      <g class="cls-7">
+        <g class="cls-3">
+          <g class="cls-6">
+            <path d="M41.46,22.86c.02-.28.03-.57.03-.86,0-6.34-5.16-11.5-11.5-11.5-4.8,0-9.05,2.96-10.74,7.41-.73-.27-1.48-.41-2.26-.41-3.58,0-6.5,2.92-6.5,6.5,0,.17,0,.35.02.53-3.3-.35-6.02,2.27-6.02,5.47,0,3.03,2.47,5.5,5.5,5.5h8v-1h-8c-2.48,0-4.5-2.02-4.5-4.5s2.02-4.5,4.5-4.5c.32,0,.64.04,1,.12l.75.17-.14-.75c-.07-.35-.1-.7-.1-1.04,0-3.03,2.47-5.5,5.5-5.5.81,0,1.59.18,2.34.53l.51.24.18-.54c1.42-4.33,5.42-7.23,9.97-7.23,5.79,0,10.5,4.71,10.5,10.5,0,.34-.02.67-.05,1l-.02.23.17.17c1.23,1.23,1.91,2.86,1.91,4.6,0,2.89-1.89,5.34-4.5,6.18v1.04c3.17-.88,5.5-3.78,5.5-7.22,0-1.93-.72-3.74-2.03-5.14"/>
+            <path d="M20.5,19.92v10.41l7.48,3.22,7.52-3.21v-10.41l-7.5-3.22-7.5,3.22ZM32.61,22.07l1.89-.99v8.59l-6,2.56v-2.23h-1v2.25l-6-2.58v-8.59l1.89.99.46-.89-1.69-.89,5.84-2.5,5.84,2.5-1.69.89.46.89Z"/>
+            <path d="M20.5,31.24v3.09l7.48,3.22,7.52-3.21v-3.09l-7.52,3.21-7.48-3.22ZM34.5,33.67l-6.52,2.79-6.48-2.78v-.91l6.48,2.78,6.52-2.79v.91Z"/>
+            <g class="cls-5">
+              <g class="cls-4">
+                <g class="cls-5">
+                  <g class="cls-1">
+                    <rect width="48" height="48"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

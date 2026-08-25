@@ -1,10 +1,24 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_141_1049)">
-<path d="M15.495 4.5L19.495 32.5H28.5L32.5 4.5H15.495ZM27.638 31.5H20.362L16.648 5.5H31.348L27.638 31.5ZM19.5 43.5H28.5V35.5H19.5V43.5ZM20.5 36.5H27.5V42.5H20.5V36.5Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_141_1049">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-attention-exclamation">
+      <g class="cls-2">
+        <path d="M15.49,4.5l4,28h9.01l4-28H15.49ZM27.64,31.5h-7.28l-3.71-26h14.7l-3.71,26ZM19.5,43.5h9v-8h-9v8ZM20.5,36.5h7v6h-7v-6Z"/>
+      </g>
+    </g>
+  </g>
 </svg>

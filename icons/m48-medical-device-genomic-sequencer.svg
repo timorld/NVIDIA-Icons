@@ -1,10 +1,24 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_144_2847)">
-<path d="M43.5 34.5V10.5H20.5V17.818H4.5V34.5H8.5V36.5H6.5V37.5H11.5V36.5H9.5V34.5H38.5V36.5H36.5V37.5H41.5V36.5H39.5V34.5H43.5ZM9.5 33.5H5.5V18.818H20.5V26.5H7.5V31.5H20.5V33.5H9.5ZM23.5 27.5V30.5H8.5V27.5H23.5ZM21.5 33.5V31.5H24.5V26.5H21.5V23.5H29.5V22.5H21.5V11.5H42.5V33.5H21.5ZM41.5 12.5H22.5V21.5H41.5V12.5ZM40.5 20.5H23.5V13.5H40.5V20.5Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_144_2847">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-medical-device-genomic-sequencer">
+      <g class="cls-2">
+        <path d="M43.5,34.5V10.5h-23v7.32H4.5v16.68h4v2h-2v1h5v-1h-2v-2h29v2h-2v1h5v-1h-2v-2h4ZM9.5,33.5h-4v-14.68h15v7.68H7.5v5h13v2h-11ZM23.5,30.5h-15v-3h15v3ZM21.5,33.5v-2h3v-5h-3v-3h8v-1h-8v-11h21v22h-21ZM41.5,12.5h-19v9h19v-9ZM40.5,20.5h-17v-7h17v7Z"/>
+      </g>
+    </g>
+  </g>
 </svg>

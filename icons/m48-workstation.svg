@@ -1,10 +1,30 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_144_2661)">
-<path d="M33.5 15.31H6.167V31.69H33.5V15.31ZM32.5 30.69H7.167V16.31H32.5V30.69ZM43.5 10.5H32.5V13.5H4.5V33.5H16.347L15.547 36.5H12.5V37.5H27.5V36.5H24.456L23.651 33.5H32.5V35.5H35.884L35.616 36.5H33.5V37.5H36.384L36.919 35.5H39.081L39.616 37.5H42.5V36.5H40.384L40.116 35.5H43.5V10.5ZM23.42 36.5H16.579L17.379 33.5H22.613L23.42 36.5ZM5.5 32.5V14.5H34.5V32.5H5.5ZM42.5 34.5H33.5V33.5H35.5V18.5H41.5V17.5H35.5V16.5H41.5V15.5H35.5V13.5H33.5V11.5H42.5V34.5ZM36.5 29.5H39.5V26.5H36.5V29.5ZM37.5 27.5H38.5V28.5H37.5V27.5Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_144_2661">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-workstation">
+      <g class="cls-2">
+        <polygon points="16.41 37.5 13 37.5 13 36.5 15.59 36.5 16.51 31.9 17.49 32.1 16.41 37.5"/>
+        <polygon points="43.5 8.5 32.5 8.5 32.5 12.5 33.5 12.5 33.5 9.5 42.5 9.5 42.5 34.5 32.5 34.5 32.5 35.5 36.19 35.5 35.69 36.5 33.5 36.5 33.5 37.5 36.31 37.5 37.31 35.5 38.69 35.5 39.69 37.5 42.5 37.5 42.5 36.5 40.31 36.5 39.81 35.5 43.5 35.5 43.5 8.5"/>
+        <rect x="36.5" y="15.5" width="5" height="1"/>
+        <rect x="36.5" y="17.5" width="5" height="1"/>
+        <path d="M36.5,30.5h4v-3h-4v3ZM37.5,28.5h2v1h-2v-1Z"/>
+        <path d="M24.41,36.5l-.8-4h11.89V13.5H4.5v19h18.09l.8,4h-10.89v1h15v-1h-3.09ZM5.5,14.5h29v17H5.5V14.5Z"/>
+        <path d="M6.5,30.5h27v-15H6.5v15ZM7.5,16.5h25v13H7.5v-13Z"/>
+      </g>
+    </g>
+  </g>
 </svg>

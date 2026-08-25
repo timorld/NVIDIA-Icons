@@ -1,26 +1,40 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_1103_757)">
-<path d="M7.5 7.5V40.5H40.5V7.5H7.5ZM39.5 18.3486L38.5 18.6162V29.3843L39.5 29.6523V39.5H29.6519L29.3838 38.5H18.6157L18.3477 39.5H8.49999V29.6514L9.49999 29.3838V18.6157L8.49999 18.3477V8.5H18.3481L18.6162 9.5H29.3843L29.6523 8.5H39.5V18.3486Z" fill="black"/>
-<path d="M33.5 14.5H30.5V17.5H33.5V14.5Z" fill="black"/>
-<path d="M29.5 14.5H26.5V17.5H29.5V14.5Z" fill="black"/>
-<path d="M33.5 18.5H30.5V21.5H33.5V18.5Z" fill="black"/>
-<path d="M29.5 18.5H26.5V21.5H29.5V18.5Z" fill="black"/>
-<path d="M21.5 14.5H18.5V17.5H21.5V14.5Z" fill="black"/>
-<path d="M17.5 14.5H14.5V17.5H17.5V14.5Z" fill="black"/>
-<path d="M21.5 18.5H18.5V21.5H21.5V18.5Z" fill="black"/>
-<path d="M17.5 18.5H14.5V21.5H17.5V18.5Z" fill="black"/>
-<path d="M33.5 26.5H30.5V29.5H33.5V26.5Z" fill="black"/>
-<path d="M29.5 26.5H26.5V29.5H29.5V26.5Z" fill="black"/>
-<path d="M33.5 30.5H30.5V33.5H33.5V30.5Z" fill="black"/>
-<path d="M29.5 30.5H26.5V33.5H29.5V30.5Z" fill="black"/>
-<path d="M21.5 26.5H18.5V29.5H21.5V26.5Z" fill="black"/>
-<path d="M17.5 26.5H14.5V29.5H17.5V26.5Z" fill="black"/>
-<path d="M21.5 30.5H18.5V33.5H21.5V30.5Z" fill="black"/>
-<path d="M17.5 30.5H14.5V33.5H17.5V30.5Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_1103_757">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-dpu-chip">
+      <g class="cls-2">
+        <path d="M29.92,7.5H7.5v33h33V7.5h-10.58ZM39.5,18.35l-1,.27v10.77l1,.27v9.85h-9.85l-.27-1h-10.77l-.27,1h-9.85v-9.85l1-.27v-10.77l-1-.27v-9.85h9.85l.27,1h10.77l.27-1h9.85v9.85Z"/>
+        <rect x="30.5" y="14.5" width="3" height="3"/>
+        <rect x="26.5" y="14.5" width="3" height="3"/>
+        <rect x="30.5" y="18.5" width="3" height="3"/>
+        <rect x="26.5" y="18.5" width="3" height="3"/>
+        <rect x="18.5" y="14.5" width="3" height="3"/>
+        <rect x="14.5" y="14.5" width="3" height="3"/>
+        <rect x="18.5" y="18.5" width="3" height="3"/>
+        <rect x="14.5" y="18.5" width="3" height="3"/>
+        <rect x="30.5" y="26.5" width="3" height="3"/>
+        <rect x="26.5" y="26.5" width="3" height="3"/>
+        <rect x="30.5" y="30.5" width="3" height="3"/>
+        <rect x="26.5" y="30.5" width="3" height="3"/>
+        <rect x="18.5" y="26.5" width="3" height="3"/>
+        <rect x="14.5" y="26.5" width="3" height="3"/>
+        <rect x="18.5" y="30.5" width="3" height="3"/>
+        <rect x="14.5" y="30.5" width="3" height="3"/>
+      </g>
+    </g>
+  </g>
 </svg>

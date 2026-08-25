@@ -1,10 +1,24 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_141_2025)">
-<path d="M35.5 23.5H31.5V27.5H27.5V31.5H23.5V35.5H19.5V40.5H24.5V36.5H27.5V40.5H32.5V36.5H35.5V40.5H40.5V35.5H36.5V32.5H40.5V27.5H36.5V24.5H40.5V19.5H35.5V23.5ZM35.5 31.5H32.5V28.5H35.5V31.5ZM28.5 28.5H31.5V31.5H28.5V28.5ZM31.5 35.5H28.5V32.5H31.5V35.5ZM23.5 39.5H20.5V36.5H23.5V39.5ZM24.5 35.5V32.5H27.5V35.5H24.5ZM31.5 39.5H28.5V36.5H31.5V39.5ZM39.5 36.5V39.5H36.5V36.5H39.5ZM35.5 35.5H32.5V32.5H35.5V35.5ZM39.5 28.5V31.5H36.5V28.5H39.5ZM35.5 27.5H32.5V24.5H35.5V27.5ZM36.5 20.5H39.5V23.5H36.5V20.5ZM7.5 7.5V40.5H12.5V36.5H16.5V32.5H20.5V28.5H24.5V24.5H28.5V20.5H32.5V16.5H36.5V12.5H40.5V7.5H7.5ZM39.5 11.5H35.5V15.5H31.5V19.5H27.5V23.5H23.5V27.5H19.5V31.5H15.5V35.5H11.5V39.5H8.5V8.5H39.5V11.5Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_141_2025">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-gpu-encoding">
+      <g class="cls-2">
+        <path d="M35.5,23.5h-4v4h-4v4h-4v4h-4v5h5v-4h3v4h5v-4h3v4h5v-5h-4v-3h4v-5h-4v-3h4v-5h-5v4ZM35.5,31.5h-3v-3h3v3ZM28.5,28.5h3v3h-3v-3ZM31.5,35.5h-3v-3h3v3ZM23.5,39.5h-3v-3h3v3ZM24.5,32.5h3v3h-3v-3ZM31.5,39.5h-3v-3h3v3ZM39.5,39.5h-3v-3h3v3ZM35.5,35.5h-3v-3h3v3ZM39.5,31.5h-3v-3h3v3ZM35.5,27.5h-3v-3h3v3ZM36.5,20.5h3v3h-3v-3ZM7.5,7.5v33h5v-4h4v-4h4v-4h4v-4h4v-4h4v-4h4v-4h4v-5H7.5ZM39.5,11.5h-4v4h-4v4h-4v4h-4v4h-4v4h-4v4h-4v4h-3V8.5h31v3Z"/>
+      </g>
+    </g>
+  </g>
 </svg>

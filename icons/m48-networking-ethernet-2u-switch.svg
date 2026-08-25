@@ -1,42 +1,56 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_1531_1263)">
-<path d="M4.5 17.5V31.5H43.5V17.5H4.5ZM42.5 30.5H5.5V18.5H42.5V30.5Z" fill="black"/>
-<path d="M11.5 20.5H8.5V21.5H11.5V20.5Z" fill="black"/>
-<path d="M11.5 22.5H8.5V23.5H11.5V22.5Z" fill="black"/>
-<path d="M11.5 25.5H8.5V26.5H11.5V25.5Z" fill="black"/>
-<path d="M11.5 27.5H8.5V28.5H11.5V27.5Z" fill="black"/>
-<path d="M15.5 20.5H12.5V21.5H15.5V20.5Z" fill="black"/>
-<path d="M15.5 22.5H12.5V23.5H15.5V22.5Z" fill="black"/>
-<path d="M15.5 25.5H12.5V26.5H15.5V25.5Z" fill="black"/>
-<path d="M15.5 27.5H12.5V28.5H15.5V27.5Z" fill="black"/>
-<path d="M19.5 20.5H16.5V21.5H19.5V20.5Z" fill="black"/>
-<path d="M19.5 22.5H16.5V23.5H19.5V22.5Z" fill="black"/>
-<path d="M19.5 25.5H16.5V26.5H19.5V25.5Z" fill="black"/>
-<path d="M19.5 27.5H16.5V28.5H19.5V27.5Z" fill="black"/>
-<path d="M23.5 20.5H20.5V21.5H23.5V20.5Z" fill="black"/>
-<path d="M23.5 22.5H20.5V23.5H23.5V22.5Z" fill="black"/>
-<path d="M23.5 25.5H20.5V26.5H23.5V25.5Z" fill="black"/>
-<path d="M23.5 27.5H20.5V28.5H23.5V27.5Z" fill="black"/>
-<path d="M27.5 20.5H24.5V21.5H27.5V20.5Z" fill="black"/>
-<path d="M27.5 22.5H24.5V23.5H27.5V22.5Z" fill="black"/>
-<path d="M27.5 25.5H24.5V26.5H27.5V25.5Z" fill="black"/>
-<path d="M27.5 27.5H24.5V28.5H27.5V27.5Z" fill="black"/>
-<path d="M31.5 20.5H28.5V21.5H31.5V20.5Z" fill="black"/>
-<path d="M31.5 22.5H28.5V23.5H31.5V22.5Z" fill="black"/>
-<path d="M31.5 25.5H28.5V26.5H31.5V25.5Z" fill="black"/>
-<path d="M31.5 27.5H28.5V28.5H31.5V27.5Z" fill="black"/>
-<path d="M35.5 20.5H32.5V21.5H35.5V20.5Z" fill="black"/>
-<path d="M35.5 22.5H32.5V23.5H35.5V22.5Z" fill="black"/>
-<path d="M35.5 25.5H32.5V26.5H35.5V25.5Z" fill="black"/>
-<path d="M35.5 27.5H32.5V28.5H35.5V27.5Z" fill="black"/>
-<path d="M39.5 20.5H36.5V21.5H39.5V20.5Z" fill="black"/>
-<path d="M39.5 22.5H36.5V23.5H39.5V22.5Z" fill="black"/>
-<path d="M39.5 25.5H36.5V26.5H39.5V25.5Z" fill="black"/>
-<path d="M39.5 27.5H36.5V28.5H39.5V27.5Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_1531_1263">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-networking-ethernet-2u-switch">
+      <g class="cls-2">
+        <path d="M4.5,31.5h39v-14H4.5v14ZM42.5,30.5H5.5v-12h37v12Z"/>
+        <rect x="8.5" y="20.5" width="3" height="1"/>
+        <rect x="8.5" y="22.5" width="3" height="1"/>
+        <rect x="8.5" y="25.5" width="3" height="1"/>
+        <rect x="8.5" y="27.5" width="3" height="1"/>
+        <rect x="12.5" y="20.5" width="3" height="1"/>
+        <rect x="12.5" y="22.5" width="3" height="1"/>
+        <rect x="12.5" y="25.5" width="3" height="1"/>
+        <rect x="12.5" y="27.5" width="3" height="1"/>
+        <rect x="16.5" y="20.5" width="3" height="1"/>
+        <rect x="16.5" y="22.5" width="3" height="1"/>
+        <rect x="16.5" y="25.5" width="3" height="1"/>
+        <rect x="16.5" y="27.5" width="3" height="1"/>
+        <rect x="20.5" y="20.5" width="3" height="1"/>
+        <rect x="20.5" y="22.5" width="3" height="1"/>
+        <rect x="20.5" y="25.5" width="3" height="1"/>
+        <rect x="20.5" y="27.5" width="3" height="1"/>
+        <rect x="24.5" y="20.5" width="3" height="1"/>
+        <rect x="24.5" y="22.5" width="3" height="1"/>
+        <rect x="24.5" y="25.5" width="3" height="1"/>
+        <rect x="24.5" y="27.5" width="3" height="1"/>
+        <rect x="28.5" y="20.5" width="3" height="1"/>
+        <rect x="28.5" y="22.5" width="3" height="1"/>
+        <rect x="28.5" y="25.5" width="3" height="1"/>
+        <rect x="28.5" y="27.5" width="3" height="1"/>
+        <rect x="32.5" y="20.5" width="3" height="1"/>
+        <rect x="32.5" y="22.5" width="3" height="1"/>
+        <rect x="32.5" y="25.5" width="3" height="1"/>
+        <rect x="32.5" y="27.5" width="3" height="1"/>
+        <rect x="36.5" y="20.5" width="3" height="1"/>
+        <rect x="36.5" y="22.5" width="3" height="1"/>
+        <rect x="36.5" y="25.5" width="3" height="1"/>
+        <rect x="36.5" y="27.5" width="3" height="1"/>
+      </g>
+    </g>
+  </g>
 </svg>

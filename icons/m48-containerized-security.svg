@@ -1,12 +1,35 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_1201_785)">
-<path d="M23.5 29.5002V25.5002H24.5V29.5002H23.5Z" fill="black"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M28.5 22.5002V20.0002C28.5 17.5202 26.48 15.5002 24 15.5002C21.52 15.5002 19.5 17.5202 19.5 20.0002V22.5002H17.52L17.5 28.0002L18.61 32.5002H29.39L30.5 28.0602L30.48 22.5002H28.5ZM20.5 20.0002C20.5 18.0702 22.07 16.5002 24 16.5002C25.93 16.5002 27.5 18.0702 27.5 20.0002V22.5002H20.5V20.0002ZM19.39 31.5002L18.5 27.9402L18.52 23.5002H29.49L29.51 27.9402L28.62 31.5002H19.39Z" fill="black"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M40.59 15.3702L40.5 15.2202V14.7102L24 5.43018L7.5 14.7102V34.2902L24 43.5702L40.5 34.2902V15.4202L40.59 15.3702ZM39.5 33.7102L24.49 42.1502L24.52 37.5002H23.52L23.49 42.1402L8.5 33.7102V15.8102L11.42 17.5002L11.92 16.6302L9.06 14.9802L24 6.58018L39.11 15.0802L36.42 16.6402L36.92 17.5102L39.51 16.0202V33.7302L39.5 33.7102Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_1201_785">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-containerized-security">
+      <g class="cls-3">
+        <path d="M40.59,15.37l-.09-.15v-.51L24,5.43,7.5,14.71v19.59l16.5,9.28,16.5-9.28V15.42l.09-.05ZM39.5,33.71l-15.01,8.44.03-4.65h-1s-.03,4.64-.03,4.64l-14.99-8.43V15.81l2.92,1.69.5-.87-2.86-1.65,14.94-8.4,15.11,8.5-2.69,1.56.5.87,2.59-1.49v17.71Z"/>
+        <g class="cls-2">
+          <path d="M28.5,22.5v-2.5c0-2.48-2.02-4.5-4.5-4.5s-4.5,2.02-4.5,4.5v2.5h-1.98l-.02,5.5,1.11,4.5h10.78l1.11-4.44-.02-5.56h-1.98ZM20.5,20c0-1.93,1.57-3.5,3.5-3.5s3.5,1.57,3.5,3.5v2.5h-7v-2.5ZM28.61,31.5h-9.22l-.89-3.56.02-4.44h10.97l.02,4.44-.89,3.56Z"/>
+          <rect x="23.5" y="25.5" width="1" height="4"/>
+        </g>
+      </g>
+    </g>
+  </g>
 </svg>

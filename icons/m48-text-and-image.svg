@@ -1,16 +1,39 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_1318_1043)">
-<path d="M33 34.5H14.1553V35.5H33V34.5Z" fill="black"/>
-<path d="M14.5688 25.5645H27.1318V26.5645H14.5688V25.5645Z" fill="black"/>
-<path d="M30 28.5H14.4824V29.5H30V28.5Z" fill="black"/>
-<path d="M14.356 31.5H21V32.5H14.356V31.5Z" fill="black"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M30 17.5C31.3784 17.5 32.5 16.3784 32.5 15C32.5 13.6216 31.3784 12.5 30 12.5C28.6216 12.5 27.5 13.6216 27.5 15C27.5 16.3784 28.6216 17.5 30 17.5ZM30 13.5C30.8272 13.5 31.5 14.1728 31.5 15C31.5 15.8272 30.8272 16.5 30 16.5C29.1728 16.5 28.5 15.8272 28.5 15C28.5 14.1728 29.1728 13.5 30 13.5Z" fill="black"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M34.5 22.499H29.5552L29.5557 22.5L13.5 22.499V10.499H34.5V22.499ZM18.8994 14.1396L14.6416 21.499L27.8237 21.499L24.8994 16.4302L22.56 20.4795L18.8994 14.1396ZM33.5 11.499H14.5V19.7471L18.9004 12.1406L22.5601 18.4805L24.9004 14.4302L28.9783 21.499H33.5V11.499Z" fill="black"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M10.4912 7.49512V40.5049H37.501V7.49512H10.4912ZM36.4912 39.4951H11.501V8.50488H36.4912V39.4951Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_1318_1043">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-text-and-image">
+      <g class="cls-3">
+        <path d="M10.49,40.51h27.01V7.5H10.49v33.01ZM36.49,39.49H11.5V8.51h24.99v30.99Z"/>
+        <rect x="14.15" y="34.5" width="18.85" height="1"/>
+        <rect x="14.57" y="25.57" width="12.56" height="1"/>
+        <rect x="14.48" y="28.5" width="15.52" height="1"/>
+        <rect x="14.36" y="31.5" width="6.64" height="1"/>
+        <g class="cls-2">
+          <path d="M30,17.5c1.38,0,2.5-1.12,2.5-2.5s-1.12-2.5-2.5-2.5-2.5,1.12-2.5,2.5,1.12,2.5,2.5,2.5M30,13.5c.83,0,1.5.67,1.5,1.5s-.67,1.5-1.5,1.5-1.5-.67-1.5-1.5.67-1.5,1.5-1.5"/>
+          <path d="M29.56,22.5h4.94v-12H13.5v12h0s16.06,0,16.06,0h0ZM14.64,21.5l4.26-7.36,3.66,6.34,2.34-4.05,2.92,5.07h-13.18ZM14.5,11.5h19v10h-4.52l-4.08-7.07-2.34,4.05-3.66-6.34-4.4,7.61v-8.25Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
 </svg>

@@ -1,10 +1,24 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_1531_1251)">
-<path d="M41.5 16.5V9.5H30.5V12.5H23.5V23.5H18.5V20.5H7.5V27.5H18.5V24.5H23.5V35.5H30.5V38.5H41.5V31.5H30.5V34.5H24.5V24.5H30.5V27.5H41.5V20.5H30.5V23.5H24.5V13.5H30.5V16.5H41.5ZM17.5 26.5H8.5V21.5H17.5V26.5ZM31.5 32.5H40.5V37.5H31.5V32.5ZM31.5 21.5H40.5V26.5H31.5V21.5ZM31.5 10.5H40.5V15.5H31.5V10.5Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_1531_1251">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-deep-stream">
+      <g class="cls-2">
+        <path d="M41.5,16.5v-7h-11v3h-7v11h-5v-3H7.5v7h11v-3h5v11h7v3h11v-7h-11v3h-6v-10h6v3h11v-7h-11v3h-6v-10h6v3h11ZM17.5,26.5h-9v-5h9v5ZM31.5,32.5h9v5h-9v-5ZM31.5,21.5h9v5h-9v-5ZM31.5,10.5h9v5h-9v-5Z"/>
+      </g>
+    </g>
+  </g>
 </svg>

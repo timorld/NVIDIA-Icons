@@ -1,10 +1,24 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_144_2688)">
-<path d="M5.5 10.5V33.5H22.5V34.616L15.434 36.51H11.5V37.51H15.566L23.066 35.5H24.934L32.371 37.493L36.5 37.51V36.51H32.566L25.5 34.616V33.5H42.5V10.5H5.5ZM6.5 11.5H41.5V30.5H6.5V11.5ZM24.5 34.5H23.5V33.5H24.5V34.5ZM41.5 32.5H6.5V31.5H41.5V32.5Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_144_2688">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-display-gaming-no-bezel">
+      <g class="cls-2">
+        <path d="M5.5,10.5v23h17v1.12l-7.07,1.89h-3.93v1h4.07l7.5-2.01h1.87l7.44,1.99,4.13.02v-1h-3.93l-7.07-1.89v-1.12h17V10.5H5.5ZM6.5,11.5h35v19H6.5V11.5ZM24.5,34.5h-1v-1h1v1ZM41.5,32.5H6.5v-1h35v1Z"/>
+      </g>
+    </g>
+  </g>
 </svg>

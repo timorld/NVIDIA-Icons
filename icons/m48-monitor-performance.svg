@@ -1,10 +1,26 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_141_2050)">
-<path d="M42.5 33.5V10.5H5.5V33.5H20.347L19.547 36.5H16.5V37.5H31.5V36.5H28.456L27.651 33.5H42.5ZM6.5 11.5H41.5V32.5H6.5V11.5ZM27.42 36.5H20.579L21.379 33.5H26.613L27.42 36.5ZM7.5 31.5H40.5V12.5H7.5V31.5ZM8.5 13.5H39.5V30.5H8.5V13.5ZM10.5 27.5H37.5V28.5H10.5V27.5ZM13 25.707L12.293 25L15.953 21.34L19.953 24.34L25.922 18.37L30.922 21.37L34.793 17.5H32.672L33.672 16.5H36.5V19.329L35.5 20.329V18.207L31.078 22.63L26.078 19.63L20.047 25.66L16.047 22.66L13 25.707Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_141_2050">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-monitor-performance">
+      <g class="cls-2">
+        <path d="M42.5,10.5H5.5v23h14.85l-.8,3h-3.04v1h15v-1h-3.04l-.81-3h14.85V10.5ZM20.58,36.5l.8-3h5.23l.8,3h-6.84ZM41.5,32.5H6.5V11.5h35v21Z"/>
+        <rect x="10.5" y="27.5" width="27" height="1"/>
+        <polygon points="16.05 22.66 20.05 25.66 26.08 19.63 31.08 22.63 35.5 18.21 35.5 20.33 36.5 19.33 36.5 16.5 33.67 16.5 32.67 17.5 34.79 17.5 30.92 21.37 25.92 18.37 19.95 24.34 15.95 21.34 12.29 25 13 25.71 16.05 22.66"/>
+      </g>
+    </g>
+  </g>
 </svg>

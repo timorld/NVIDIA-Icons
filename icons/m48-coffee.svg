@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath-4);
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-5 {
+        opacity: 0;
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-2" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-2" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="cls-2" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect class="cls-2" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-coffee">
+      <g class="cls-7">
+        <g class="cls-3">
+          <g class="cls-6">
+            <g class="cls-5">
+              <g class="cls-4">
+                <rect width="48" height="48"/>
+              </g>
+            </g>
+          </g>
+          <path d="M34.97,17.56h0s-23.62,0-23.62,0l4,14.93h16.26l1.86-6.93h4.03l2.15-8.01h-4.69ZM30.85,31.5h-14.73l-3.47-12.93h21.66l-3.47,12.93ZM36.74,24.57h-3l1.61-6.01h3l-1.61,6.01Z"/>
+          <g class="cls-1">
+            <path d="M16.45,14.24c0,.62-.49,1.13-.78,1.39l.66.75c.73-.64,1.12-1.38,1.12-2.14s-.38-1.46-1.12-2.11c-.52-.45-.78-.91-.78-1.36,0-.62.49-1.13.78-1.39l-.66-.75c-.73.64-1.12,1.38-1.12,2.14s.38,1.47,1.12,2.11c.51.45.78.91.78,1.36"/>
+            <path d="M23.45,14.24c0,.62-.49,1.13-.78,1.39l.66.75c.73-.64,1.12-1.38,1.12-2.14s-.38-1.46-1.12-2.11c-.52-.45-.78-.91-.78-1.36,0-.62.49-1.13.78-1.39l-.66-.75c-.73.64-1.12,1.38-1.12,2.14s.38,1.47,1.12,2.11c.51.45.78.91.78,1.36"/>
+            <path d="M30.45,14.24c0,.62-.49,1.13-.78,1.39l.66.75c.73-.64,1.12-1.38,1.12-2.14s-.38-1.46-1.12-2.11c-.52-.45-.78-.91-.78-1.36,0-.62.49-1.13.78-1.39l-.66-.75c-.73.64-1.12,1.38-1.12,2.14s.38,1.47,1.12,2.11c.51.45.78.91.78,1.36"/>
+            <path d="M13.35,33.5h-1.35v1h1.62l.67,2.5h18.43l.67-2.5h1.62v-1H13.35ZM31.95,36H15.05l-.4-1.5h17.7l-.4,1.5Z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

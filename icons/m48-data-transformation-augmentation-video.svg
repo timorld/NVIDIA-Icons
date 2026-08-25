@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-4 {
+        opacity: 0;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-data-transformation-augmentation-video">
+      <g class="cls-6">
+        <g class="cls-2">
+          <g class="cls-5">
+            <path d="M31.5,22.5c-4.96,0-9,4.04-9,9s4.04,9,9,9,9-4.04,9-9-4.04-9-9-9M31.5,39.5c-4.41,0-8-3.59-8-8s3.59-8,8-8,8,3.59,8,8-3.59,8-8,8"/>
+            <path d="M28.57,36.03l7.54-4.53-7.54-4.53v9.05ZM29.57,28.74l4.6,2.76-4.6,2.76v-5.52Z"/>
+            <path d="M20.5,23v-12c0-1.96-2.85-3.5-6.5-3.5s-6.5,1.54-6.5,3.5v12c0,1.96,2.85,3.5,6.5,3.5s6.5-1.54,6.5-3.5M14,8.5c3.24,0,5.5,1.32,5.5,2.5s-2.26,2.5-5.5,2.5-5.5-1.32-5.5-2.5,2.26-2.5,5.5-2.5M8.5,12.88c1.14.98,3.15,1.62,5.5,1.62s4.36-.64,5.5-1.62v2.12c0,1.18-2.26,2.5-5.5,2.5s-5.5-1.32-5.5-2.5v-2.12ZM8.5,16.88c1.14.98,3.15,1.62,5.5,1.62s4.36-.64,5.5-1.62v2.12c0,1.18-2.26,2.5-5.5,2.5s-5.5-1.32-5.5-2.5v-2.12ZM8.5,23v-2.12c1.14.98,3.15,1.62,5.5,1.62s4.36-.64,5.5-1.62v2.12c0,1.18-2.26,2.5-5.5,2.5s-5.5-1.32-5.5-2.5"/>
+            <polygon points="31.5 17.79 29.35 15.65 28.65 16.35 32 19.71 35.35 16.35 34.65 15.65 32.5 17.79 32.5 7.5 23 7.5 23 8.5 31.5 8.5 31.5 17.79"/>
+            <polygon points="14.5 30.21 16.65 32.35 17.35 31.65 14 28.29 10.65 31.65 11.35 32.35 13.5 30.21 13.5 40.5 23 40.5 23 39.5 14.5 39.5 14.5 30.21"/>
+            <g class="cls-4">
+              <g class="cls-3">
+                <rect width="48" height="48"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

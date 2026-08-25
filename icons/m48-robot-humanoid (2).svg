@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-robot-humanoid">
+      <g class="cls-2">
+        <path d="M18.5,31.5h11v-5h-11v5ZM19.5,27.5h9v3h-9v-3Z"/>
+        <path d="M35.97,23.5h-8.47v-2h.81l1.07-4h2.12v-7h-2v-.71s-2.29-2.29-2.29-2.29h-6.41l-2.29,2.29v.71h-2v7h2.13l1.05,4h.81v2h-8.47l-1.51,5.64v4.36h-.02v1h0v6s.99,0,.99,0v-6h4v6h1v-16s4,0,4,0h11v16h1v-6h4v6h1v-11.23l-1.53-5.77ZM15.5,33.5h-4v-4.16l1.29-4.84h2.71v9ZM29.5,11.5h1v5h-1v-5ZM17.5,11.5h1v5h-1v-5ZM20.45,20.5l-.95-3.57v-6.73l1.71-1.71h5.59l1.71,1.71v6.73l-.95,3.57h-7.09ZM21.5,21.5h5v2h-5v-2ZM32.5,33.5v-9h2.71l1.29,4.84v4.16h-4Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,11 +1,40 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_1318_1034)">
-<path d="M16.5 28.5H31.5V29.5H16.5V28.5Z" fill="black"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M35.5 28.9189L37.6939 35.5H29.5247C29.2463 38.3032 26.8755 40.5 24 40.5C21.1245 40.5 18.7537 38.3032 18.4753 35.5H10.3062L12.5 28.9189V22C12.5 16.8228 15.9399 12.437 20.6533 11H20.5V7.5H27.5V11H27.3467C32.0601 12.437 35.5 16.8228 35.5 22V28.9189ZM26.5 8.5H21.5V10.7817C22.3059 10.602 23.1406 10.5 24 10.5C24.8594 10.5 25.6941 10.602 26.5 10.7817V8.5ZM13.5 22L13.4741 29.1582L11.6939 34.5H36.3062L34.5 29V22C34.5 16.2104 29.7896 11.5 24 11.5C18.2105 11.5 13.5 16.2104 13.5 22ZM19.5032 35.5C19.7795 37.7476 21.679 39.5 24 39.5C26.321 39.5 28.2205 37.7476 28.4968 35.5H19.5032Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_1318_1034">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath-5);
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-notification">
+      <g class="cls-3">
+        <rect x="16.5" y="28.5" width="15" height="1"/>
+        <g class="cls-2">
+          <path d="M37.69,35.5l-2.19-6.58v-6.92c0-5.12-3.37-9.47-8-10.95v-3.55h-7v3.55c-4.63,1.48-8,5.83-8,10.95v6.92l-2.19,6.58h8.17c.28,2.8,2.65,5,5.53,5s5.25-2.2,5.52-5h8.17ZM21.5,8.5h5v2.28c-.81-.18-1.64-.28-2.5-.28s-1.69.1-2.5.28v-2.28ZM13.47,29.16l.03-7.16c0-5.79,4.71-10.5,10.5-10.5s10.5,4.71,10.5,10.5v7l1.81,5.5H11.69l1.78-5.34ZM24,39.5c-2.32,0-4.22-1.75-4.5-4h8.99c-.28,2.25-2.18,4-4.5,4"/>
+        </g>
+      </g>
+    </g>
+  </g>
 </svg>

@@ -1,10 +1,24 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_141_1032)">
-<path d="M17.5 34.5H30.5V28.5H17.5V34.5ZM18.5 29.5H29.5V33.5H18.5V29.5ZM17.5 26.5H30.5V21.5H37.087L24 6.23096L10.913 21.5H17.5V26.5ZM13.087 20.5L24 7.76896L34.913 20.5H29.5V25.5H18.5V20.5H13.087ZM34.609 33.5L33.609 37.5H14.391L13.391 33.5H8.33701L10.623 41.5H37.377L39.663 33.5H34.609ZM36.623 40.5H11.377L9.66301 34.5H12.609L13.609 38.5H34.391L35.391 34.5H38.337L36.623 40.5Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_141_1032">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-export">
+      <g class="cls-2">
+        <path d="M17.5,34.5h13v-6h-13v6ZM18.5,29.5h11v4h-11v-4ZM17.5,26.5h13v-5h6.59l-13.09-15.27-13.09,15.27h6.59v5ZM13.09,20.5l10.91-12.73,10.91,12.73h-5.41v5h-11v-5h-5.41ZM34.61,33.5l-1,4H14.39l-1-4h-5.05l2.29,8h26.75l2.29-8h-5.05ZM36.62,40.5H11.38l-1.71-6h2.95l1,4h20.78l1-4h2.95l-1.71,6Z"/>
+      </g>
+    </g>
+  </g>
 </svg>

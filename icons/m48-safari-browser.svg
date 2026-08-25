@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-safari-browser">
+      <g class="cls-3">
+        <g class="cls-2">
+          <path d="M24,5.5C13.8,5.5,5.5,13.8,5.5,24s8.3,18.5,18.5,18.5,18.5-8.3,18.5-18.5S34.2,5.5,24,5.5M24,41.5c-9.65,0-17.5-7.85-17.5-17.5S14.35,6.5,24,6.5s17.5,7.85,17.5,17.5-7.85,17.5-17.5,17.5"/>
+          <path d="M24,7.5c-9.1,0-16.5,7.4-16.5,16.5s7.4,16.5,16.5,16.5,16.5-7.4,16.5-16.5S33.1,7.5,24,7.5M24,39.5c-8.55,0-15.5-6.95-15.5-15.5s6.95-15.5,15.5-15.5,15.5,6.95,15.5,15.5-6.95,15.5-15.5,15.5"/>
+          <path d="M21.73,21.58l-8.36,13.05,12.9-8.21,8.36-13.05-12.9,8.21ZM22.79,22.09l8.58-5.46-5.46,8.58-3.12-3.12ZM22.09,22.79l3.12,3.12-8.58,5.46,5.46-8.58Z"/>
+          <rect x="23.5" y="10" width="1" height="3"/>
+          <rect x="17.25" y="11.67" width="1" height="3" transform="translate(-4.21 10.64) rotate(-30)"/>
+          <rect x="12.67" y="16.25" width="1" height="3" transform="translate(-8.78 20.28) rotate(-60)"/>
+          <rect x="10" y="23.5" width="3" height="1"/>
+          <rect x="11.67" y="29.75" width="3" height="1" transform="translate(-13.36 10.64) rotate(-30)"/>
+          <rect x="16.25" y="34.33" width="3" height="1" transform="translate(-21.28 32.78) rotate(-60)"/>
+          <rect x="23.5" y="35" width="1" height="3"/>
+          <rect x="29.75" y="33.33" width="1" height="3" transform="translate(-13.36 19.79) rotate(-30)"/>
+          <rect x="34.33" y="28.75" width="1" height="3" transform="translate(-8.78 45.28) rotate(-60)"/>
+          <rect x="35" y="23.5" width="3" height="1"/>
+          <rect x="33.33" y="17.25" width="3" height="1" transform="translate(-4.21 19.79) rotate(-30)"/>
+          <rect x="28.75" y="12.67" width="3" height="1" transform="translate(3.72 32.78) rotate(-60)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

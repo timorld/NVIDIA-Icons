@@ -1,10 +1,24 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_144_2682)">
-<path d="M40.5001 32.5V11.5H7.50012V32.5H4.34912L5.42012 36.5H42.5801L43.6511 32.5H40.5001ZM8.50012 12.5H39.5001V32.5H8.50012V12.5ZM41.8131 35.5H6.18812L5.65112 33.5H18.6131L18.8731 34.5H29.1231L29.3821 33.5H42.3491L41.8131 35.5ZM38.5001 13.5H9.50012V31.5H38.5001V13.5ZM37.5001 30.5H10.5001V14.5H37.5001V30.5Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_144_2682">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-laptop">
+      <g class="cls-2">
+        <path d="M40.5,32.5V11.5H7.5v21h-3.15l1.07,4h37.16l1.07-4h-3.15ZM8.5,12.5h31v20H8.5V12.5ZM41.81,35.5H6.19l-.54-2h12.96l.26,1h10.25l.26-1h12.97l-.54,2ZM38.5,13.5H9.5v18h29V13.5ZM37.5,30.5H10.5V14.5h27v16Z"/>
+      </g>
+    </g>
+  </g>
 </svg>

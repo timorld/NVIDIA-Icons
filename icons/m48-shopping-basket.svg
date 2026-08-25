@@ -1,10 +1,33 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_24_409)">
-<path d="M30.5 17.5V15C30.5 13.2761 29.8152 11.6228 28.5962 10.4038C27.3772 9.18482 25.7239 8.5 24 8.5C22.2761 8.5 20.6228 9.18482 19.4038 10.4038C18.1848 11.6228 17.5 13.2761 17.5 15V17.5H5.25781L10.6162 37.5H37.3838L42.7422 17.5H30.5ZM8.16821 24.5H17.5V30.5H9.77612L8.16821 24.5ZM18.5 24.5H29.5V30.5H18.5V24.5ZM29.5 23.5H18.5V18.5H29.5V23.5ZM30.5 24.5H39.8318L38.2239 30.5H30.5V24.5ZM30.5 23.5V18.5H41.4395L40.0996 23.5H30.5ZM18.5 15C18.5 13.5413 19.0795 12.1424 20.1109 11.1109C21.1424 10.0795 22.5413 9.5 24 9.5C25.4587 9.5 26.8576 10.0795 27.8891 11.1109C28.9205 12.1424 29.5 13.5413 29.5 15V17.5H18.5V15ZM17.5 18.5V23.5H7.90039L6.56055 18.5H17.5ZM11.3838 36.5L10.044 31.5H17.5V36.5H11.3838ZM18.5 36.5V31.5H29.5V36.5H18.5ZM36.6162 36.5H30.5V31.5H37.956L36.6162 36.5Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_24_409">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-shopping-basket">
+      <g class="cls-3">
+        <g class="cls-2">
+          <path d="M30.5,17.5v-2.5c0-3.58-2.92-6.5-6.5-6.5s-6.5,2.92-6.5,6.5v2.5H5.26l5.36,20h26.77l5.36-20h-12.24ZM8.17,24.5h9.33v6h-7.72l-1.61-6ZM18.5,24.5h11v6h-11v-6ZM29.5,23.5h-11v-5h11v5ZM30.5,24.5h9.33l-1.61,6h-7.72v-6ZM30.5,23.5v-5h10.94l-1.34,5h-9.6ZM18.5,15c0-3.03,2.47-5.5,5.5-5.5s5.5,2.47,5.5,5.5v2.5h-11v-2.5ZM17.5,18.5v5H7.9l-1.34-5h10.94ZM11.38,36.5l-1.34-5h7.46v5h-6.12ZM18.5,31.5h11v5h-11v-5ZM36.62,36.5h-6.12v-5h7.46l-1.34,5Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
 </svg>

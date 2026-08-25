@@ -1,10 +1,24 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_144_2378)">
-<path d="M18.793 7.5L11.5 14.793V40.5H36.5V7.5H18.793ZM18.5 9.207V14.5H13.207L18.5 9.207ZM35.5 39.5H12.5V15.5H19.5V8.5H35.5V39.5ZM15.5 18.5H32.5V19.5H15.5V18.5ZM15.5 21.5H32.5V22.5H15.5V21.5ZM15.5 24.5H32.5V25.5H15.5V24.5ZM15.5 27.5H27.5V28.5H15.5V27.5Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_144_2378">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-document">
+      <g class="cls-2">
+        <path d="M18.79,7.5l-7.29,7.29v25.71h25V7.5h-17.71ZM18.5,9.21v5.29h-5.29l5.29-5.29ZM35.5,39.5H12.5V15.5h7v-7h16v31ZM15.5,18.5h17v1H15.5v-1ZM15.5,21.5h17v1H15.5v-1ZM15.5,24.5h17v1H15.5v-1ZM15.5,27.5h12v1h-12v-1Z"/>
+      </g>
+    </g>
+  </g>
 </svg>

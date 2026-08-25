@@ -1,10 +1,33 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_1174_744)">
-<path d="M39.5 30.5V23.5H24.5V17.4492C26.1917 17.2041 27.5 15.7588 27.5 14C27.5 12.0703 25.9297 10.5 24 10.5C22.0703 10.5 20.5 12.0703 20.5 14C20.5 15.7588 21.8083 17.2041 23.5 17.4492V23.5H8.5V30.5H5.5V37.5H12.5V30.5H9.5V24.5H18.5V30.5H15.5V37.5H22.5V30.5H19.5V24.5H28.5V30.5H25.5V37.5H32.5V30.5H29.5V24.5H38.5V30.5H35.5V37.5H42.5V30.5H39.5ZM21.5 14C21.5 12.6216 22.6216 11.5 24 11.5C25.3784 11.5 26.5 12.6216 26.5 14C26.5 15.3784 25.3784 16.5 24 16.5C22.6216 16.5 21.5 15.3784 21.5 14ZM11.5 36.5H6.5V31.5H11.5V36.5ZM21.5 36.5H16.5V31.5H21.5V36.5ZM31.5 36.5H26.5V31.5H31.5V36.5ZM41.5 36.5H36.5V31.5H41.5V36.5Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_1174_744">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-nemo-service">
+      <g class="cls-3">
+        <g class="cls-2">
+          <path d="M39.5,30.5v-7h-15v-6.05c1.69-.24,3-1.69,3-3.45,0-1.93-1.57-3.5-3.5-3.5s-3.5,1.57-3.5,3.5c0,1.76,1.31,3.2,3,3.45v6.05h-15v7h-3v7h7v-7h-3v-6h9v6h-3v7h7v-7h-3v-6h9v6h-3v7h7v-7h-3v-6h9v6h-3v7h7v-7h-3ZM21.5,14c0-1.38,1.12-2.5,2.5-2.5s2.5,1.12,2.5,2.5-1.12,2.5-2.5,2.5-2.5-1.12-2.5-2.5M11.5,36.5h-5v-5h5v5ZM21.5,36.5h-5v-5h5v5ZM31.5,36.5h-5v-5h5v5ZM41.5,36.5h-5v-5h5v5Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
 </svg>

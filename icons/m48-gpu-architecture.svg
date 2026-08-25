@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-4 {
+        opacity: 0;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-gpu-architecture">
+      <g class="cls-6">
+        <g class="cls-2">
+          <g class="cls-5">
+            <g class="cls-4">
+              <g class="cls-3">
+                <rect width="48" height="48"/>
+              </g>
+            </g>
+          </g>
+          <path d="M38.5,5.5v9h2.5l-2,2v1.41l1.5-1.5v2.09h-12v-2.09l1.5,1.5v-1.41l-2-2h2.5V5.5h-5v9h2.5l-2,2v1.41l1.5-1.5v2.09h-6v-2.09l1.5,1.5v-1.41l-2-2h2.5V5.5h-5v9h2.5l-2,2v1.41l1.5-1.5v2.09h-6v-2.09l1.5,1.5v-1.41l-2-2h2.5V5.5h-5v9h2.5l-2,2v1.41l1.5-1.5v2.09h-6v-2.09l1.5,1.5v-1.41l-2-2h2.5V5.5h-5v9h2.5l-2,2v1.41l1.5-1.5v3.09h17v2.09l-1.5-1.5v1.41l2,2h-15.5v5h31v-5h-15.5l2-2v-1.42l-1.5,1.5v-2.09h17v-3.09l1.5,1.5v-1.41l-2-2h2.5V5.5h-5ZM26.5,6.5h3v7h-3v-7ZM19.5,6.5h3v7h-3v-7ZM12.5,6.5h3v7h-3v-7ZM5.5,6.5h3v7h-3v-7ZM38.5,27.5H9.5v-3h29v3ZM42.5,13.5h-3v-7h3v7Z"/>
+          <rect x="32" y="9.5" width="1" height="1"/>
+          <rect x="34" y="9.5" width="1" height="1"/>
+          <rect x="36" y="9.5" width="1" height="1"/>
+          <path d="M26,34.5v-1.41l-1.5,1.5v-4.17l1.5,1.5v-1.41l-2-2-2,2v1.41l1.5-1.5v4.17l-1.5-1.5v1.41l2,2H4.5v6h39v-6h-19.5l2-2ZM42.5,41.5H5.5v-4h37v4Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

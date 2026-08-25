@@ -1,11 +1,25 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_1376_712)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M19.6094 16.5H25.6099L24.6099 21.5H28.8433L21.5 34.9258V25.5H17.3594L19.6094 16.5ZM22.5 31.0137L27.1567 22.5H23.3901L24.3901 17.5H20.3906L18.6406 24.5H22.5V31.0137Z" fill="black"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 7.53906H26.5V9.53906H31.5V40.5391H14.5V9.53906H19.5V7.53906ZM25.5 8.53906H20.5V9.53906H25.5V8.53906ZM15.5 39.5391H30.5V10.5391H15.5V39.5391Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_1376_712">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-battery">
+      <g class="cls-2">
+        <path d="M26.5,9.51v-2h-7v2h-5v31h17V9.51h-5ZM20.5,8.51h5v1h-5v-1ZM30.5,39.51h-15V10.51h15v29Z"/>
+        <path d="M25.61,16.47h-6l-2.25,9h4.14v9.43l7.34-13.43h-4.23l1-5ZM27.16,22.47l-4.66,8.51v-6.51h-3.86l1.75-7h4l-1,5h3.77Z"/>
+      </g>
+    </g>
+  </g>
 </svg>

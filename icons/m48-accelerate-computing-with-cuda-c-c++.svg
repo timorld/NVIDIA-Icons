@@ -1,18 +1,32 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_1531_1246)">
-<path d="M10.5049 10.5049V11.5049H42.5049V31.5049H43.5049V10.5049H10.5049Z" fill="black"/>
-<path d="M7.50488 14.5049H39.5049V34.5049H40.5049V13.5049H7.50488V14.5049Z" fill="black"/>
-<path d="M4.50488 37.5049H37.5049V16.5049H4.50488V37.5049ZM36.5049 36.5049H5.50488V21.5049H36.5049V36.5049ZM5.50488 17.5049H36.5049V20.5H5.50488V17.5049Z" fill="black"/>
-<path d="M35.5 18.5H33.5V19.5H35.5V18.5Z" fill="black"/>
-<path d="M32.5 18.5H30.5V19.5H32.5V18.5Z" fill="black"/>
-<path d="M29.5 18.5H27.5V19.5H29.5V18.5Z" fill="black"/>
-<path d="M15.707 33L11.707 29L15.707 25H14.2929L10.293 29L14.2929 33H15.707Z" fill="black"/>
-<path d="M27.7071 33L31.707 29L27.7071 25H26.293L30.293 29L26.293 33H27.7071Z" fill="black"/>
-<path d="M24.4484 23H23.3016L16.5516 35H17.6984L24.4484 23Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_1531_1246">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-accelerate-computing-with-cuda-c-c_" data-name="m48-accelerate-computing-with-cuda-c-c++">
+      <g class="cls-2">
+        <polygon points="10.5 10.5 10.5 11.5 42.5 11.5 42.5 31.5 43.5 31.5 43.5 10.5 10.5 10.5"/>
+        <polygon points="7.5 14.5 39.5 14.5 39.5 34.5 40.5 34.5 40.5 13.5 7.5 13.5 7.5 14.5"/>
+        <path d="M4.51,20.5v17h33v-21H4.51v4ZM36.51,36.51H5.51v-15h31v15ZM5.51,17.5h31v3H5.51v-3Z"/>
+        <rect x="33.5" y="18.5" width="2" height="1"/>
+        <rect x="30.5" y="18.5" width="2" height="1"/>
+        <rect x="27.5" y="18.5" width="2" height="1"/>
+        <polygon points="15.71 33 11.71 29 15.71 25 14.29 25 10.29 29 14.29 33 15.71 33"/>
+        <polygon points="27.71 33 31.71 29 27.71 25 26.29 25 30.29 29 26.29 33 27.71 33"/>
+        <polygon points="24.45 23 23.3 23 16.55 35 17.7 35 24.45 23"/>
+      </g>
+    </g>
+  </g>
 </svg>

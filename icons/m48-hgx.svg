@@ -1,26 +1,40 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_1531_1257)">
-<path d="M43.5 26.5V20.5H41.5V13.5H6.5V20.5H4.5V26.5H6.5V27.375H4.5V33.625H6.5V34.5H41.5V33.625H43.5V27.375H41.5V26.5H43.5ZM42.5 21.5V25.5H41.5V21.5H42.5ZM5.5 25.5V21.5H6.5V25.5H5.5ZM5.5 32.625V28.375H6.5V32.625H5.5ZM7.5 27.5H40.5V33.5H7.5V27.5ZM42.5 32.625H41.5V28.375H42.5V32.625ZM7.5 26.5V14.5H40.5V26.5H7.5Z" fill="black"/>
-<path d="M9.5 20H8.5V23H9.5V20Z" fill="black"/>
-<path d="M11.5 20H10.5V23H11.5V20Z" fill="black"/>
-<path d="M13.5 20H12.5V23H13.5V20Z" fill="black"/>
-<path d="M15.5 20H14.5V23H15.5V20Z" fill="black"/>
-<path d="M37.5 20H36.5V23H37.5V20Z" fill="black"/>
-<path d="M39.5 20H38.5V23H39.5V20Z" fill="black"/>
-<path d="M35.5 20H34.5V23H35.5V20Z" fill="black"/>
-<path d="M33.5 20H32.5V23H33.5V20Z" fill="black"/>
-<path d="M15 29.125H9V30.125H15V29.125Z" fill="black"/>
-<path d="M23 29.125H17V30.125H23V29.125Z" fill="black"/>
-<path d="M31 29.125H25V30.125H31V29.125Z" fill="black"/>
-<path d="M39 29.125H33V30.125H39V29.125Z" fill="black"/>
-<path d="M15 30.875H9V31.875H15V30.875Z" fill="black"/>
-<path d="M23 30.875H17V31.875H23V30.875Z" fill="black"/>
-<path d="M31 30.875H25V31.875H31V30.875Z" fill="black"/>
-<path d="M39 30.875H33V31.875H39V30.875Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_1531_1257">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-hgx">
+      <g class="cls-2">
+        <path d="M43.5,26.5v-6h-2v-7H6.5v7h-2v6h2v.88h-2v6.25h2v.88h35v-.88h2v-6.25h-2v-.88h2ZM42.5,25.5h-1v-4h1v4ZM5.5,21.5h1v4h-1v-4ZM5.5,28.38h1v4.25h-1v-4.25ZM7.5,27.5h33v6H7.5v-6ZM42.5,32.62h-1v-4.25h1v4.25ZM7.5,26.5v-12h33v12H7.5Z"/>
+        <rect x="8.5" y="20" width="1" height="3"/>
+        <rect x="10.5" y="20" width="1" height="3"/>
+        <rect x="12.5" y="20" width="1" height="3"/>
+        <rect x="14.5" y="20" width="1" height="3"/>
+        <rect x="36.5" y="20" width="1" height="3"/>
+        <rect x="38.5" y="20" width="1" height="3"/>
+        <rect x="34.5" y="20" width="1" height="3"/>
+        <rect x="32.5" y="20" width="1" height="3"/>
+        <rect x="9" y="29.12" width="6" height="1"/>
+        <rect x="17" y="29.12" width="6" height="1"/>
+        <rect x="25" y="29.12" width="6" height="1"/>
+        <rect x="33" y="29.12" width="6" height="1"/>
+        <rect x="9" y="30.88" width="6" height="1"/>
+        <rect x="17" y="30.88" width="6" height="1"/>
+        <rect x="25" y="30.88" width="6" height="1"/>
+        <rect x="33" y="30.88" width="6" height="1"/>
+      </g>
+    </g>
+  </g>
 </svg>

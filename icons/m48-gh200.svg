@@ -1,16 +1,42 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_1127_719)">
-<path d="M26.5 29.5H36.5V18.5H26.5V29.5ZM27.5 19.5H35.5V28.5H27.5V19.5Z" fill="black"/>
-<path d="M28 27H35V21H28V27ZM29 22H34V26H29V22Z" fill="black"/>
-<path d="M43.5 20.5V10.5H23.5V11.5H14.5V10.5H4.5V37.5H14.5V36.5H23.5V37.5H43.5V27.5H42.5V26.5H43.5V21.5H42.5V20.5H43.5ZM42.5 22.5V25.5H41.5V28.5H42.5V36.5H24.5V35.5H13.5V36.5H5.5V11.5H13.5V12.5H24.5V11.5H42.5V19.5H41.5V22.5H42.5Z" fill="black"/>
-<path d="M11.5 30.5H25.5V17.5H11.5V30.5ZM12.5 18.5H24.5V29.5H12.5V18.5Z" fill="black"/>
-<path d="M15 27H22V21H15V27ZM16 22H21V26H16V22Z" fill="black"/>
-<path d="M12.5 34.5H25.5V31.5H12.5V34.5ZM22.5 32.5H24.5V33.5H22.5V32.5ZM19.5 32.5H21.5V33.5H19.5V32.5ZM16.5 32.5H18.5V33.5H16.5V32.5ZM13.5 32.5H15.5V33.5H13.5V32.5Z" fill="black"/>
-<path d="M12.5 16.5H25.5V13.5H12.5V16.5ZM22.5 14.5H24.5V15.5H22.5V14.5ZM19.5 14.5H21.5V15.5H19.5V14.5ZM16.5 14.5H18.5V15.5H16.5V14.5ZM13.5 14.5H15.5V15.5H13.5V14.5Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_1127_719">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-gh200">
+      <g class="cls-3">
+        <g class="cls-2">
+          <path d="M26.5,29.5h10v-11h-10v11ZM27.5,19.5h8v9h-8v-9Z"/>
+          <path d="M28,27h7v-6h-7v6ZM29,22h5v4h-5v-4Z"/>
+          <path d="M43.5,20.5v-9.97h-20v.97l-9-.02v-.98H4.5v27h10v-1h9v1h20v-10h-1v-1h1v-5h-1v-1h1ZM42.5,22.5v3h-1v3h1v8h-18v-1h-11v1H5.5V11.5h8v.97l11,.03v-.98h18v7.97h-1v3h1Z"/>
+          <path d="M11.5,30.5h14v-13h-14v13ZM12.5,18.5h12v11h-12v-11Z"/>
+          <path d="M15,27h7v-6h-7v6ZM16,22h5v4h-5v-4Z"/>
+          <path d="M12.5,34.5h13v-3h-13v3ZM22.5,32.5h2v1h-2v-1ZM19.5,32.5h2v1h-2v-1ZM16.5,32.5h2v1h-2v-1ZM13.5,32.5h2v1h-2v-1Z"/>
+          <path d="M12.5,16.5h13v-3h-13v3ZM22.5,14.5h2v1h-2v-1ZM19.5,14.5h2v1h-2v-1ZM16.5,14.5h2v1h-2v-1ZM13.5,14.5h2v1h-2v-1Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
 </svg>

@@ -1,18 +1,32 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_1201_784)">
-<path d="M12.58 21.5L13.26 24.03L15.79 21.5H19.5V22.5H16.21L12.74 25.97L11.81 22.5H7.5V7.5H28.5V16.5H27.5V8.5H8.5V21.5H12.58Z" fill="black"/>
-<path d="M36.48 11.49V14.75L35.02 13.29V14.71L37.02 16.71L39.02 14.71V13.29L37.48 14.84V10.49H30.48V11.49H36.48Z" fill="black"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M32.16 35.72L23.83 32.6V23.28L32.16 26.4V35.72ZM31.16 27.1L24.83 24.72V31.9L31.16 34.28V27.1Z" fill="black"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M20.5 35.1L35.5 40.72V23.9L20.5 18.28V35.1ZM21.5 19.72L34.5 24.6V39.28L21.5 34.4V19.72Z" fill="black"/>
-<path d="M31.5 16.29V18.5H32.5V17.71L40.5 20.6V29.29L40 29.11V30.17L41.5 30.71V19.9L31.5 16.29Z" fill="black"/>
-<path d="M27.5 19.97H26.5V17.32L38.5 21.67V34.71L37 34.17V33.1L37.5 33.29V22.37L27.5 18.75V19.97Z" fill="black"/>
-<path d="M13.29 31L14.79 32.5H11.49V27.5H10.49V33.5H14.79L13.29 35H14.71L16.71 33L14.71 31H13.29Z" fill="black"/>
-<path d="M21.5 15.5H10.5V16.5H21.5V15.5Z" fill="black"/>
-<path d="M10.5 12.39H25.5V13.39H10.5V12.39Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_1201_784">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-chat-usd">
+      <g class="cls-2">
+        <polygon points="36.48 11.49 36.48 14.75 35.02 13.29 35.02 14.71 37.02 16.71 39.02 14.71 39.02 13.29 37.48 14.84 37.48 10.5 37.48 10.49 30.48 10.49 30.48 11.49 35.02 11.49 36.48 11.49"/>
+        <path d="M20.5,35.1l15,5.62v-16.82l-15-5.62v16.82ZM21.5,19.72l13,4.88v14.68l-13-4.87v-14.68Z"/>
+        <path d="M23.83,32.6l8.33,3.12v-9.32l-8.33-3.12v9.32ZM24.83,24.72l6.33,2.38v7.18l-6.33-2.37v-7.18Z"/>
+        <polygon points="31.5 16.29 31.5 18.5 32.5 18.5 32.5 17.71 40.5 20.6 40.5 29.29 40 29.11 40 30.17 41.5 30.71 41.5 19.9 31.5 16.29"/>
+        <polygon points="26.5 19.97 27.5 19.97 27.5 18.74 37.5 22.37 37.5 33.29 37 33.1 37 34.17 38.5 34.71 38.5 21.67 26.5 17.32 26.5 19.97"/>
+        <polygon points="13.29 31 14.79 32.5 11.49 32.5 11.49 31 11.49 27.5 10.49 27.5 10.49 33.5 10.5 33.5 14.79 33.5 13.29 35 14.71 35 16.71 33 14.71 31 13.29 31"/>
+        <polygon points="13.26 24.03 12.58 21.5 8.5 21.5 8.5 8.5 27.5 8.5 27.5 16.5 28.5 16.5 28.5 7.5 7.5 7.5 7.5 22.5 11.81 22.5 12.74 25.97 16.21 22.5 19.5 22.5 19.5 21.5 15.79 21.5 13.26 24.03"/>
+        <rect x="10.5" y="15.5" width="11" height="1"/>
+        <rect x="10.5" y="12.39" width="15" height="1"/>
+      </g>
+    </g>
+  </g>
 </svg>

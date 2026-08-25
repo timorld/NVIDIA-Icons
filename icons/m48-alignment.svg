@@ -1,10 +1,24 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_144_4068)">
-<path d="M33.5 8.5H8.5V39.5H39.5V8.5H33.5ZM27.5 9.5H32.5V14.5H27.5V9.5ZM32.5 20.5H27.5V15.5H32.5V20.5ZM15.5 27.5H20.5V32.5H15.5V27.5ZM26.5 20.5H21.5V15.5H26.5V20.5ZM15.5 21.5H20.5V26.5H15.5V21.5ZM32.5 26.5H27.5V21.5H32.5V26.5ZM21.5 9.5H26.5V14.5H21.5V9.5ZM9.5 15.5H14.5V20.5H9.5V15.5ZM9.5 21.5H14.5V26.5H9.5V21.5ZM9.5 27.5H14.5V32.5H9.5V27.5ZM14.5 38.5H9.5V33.5H14.5V38.5ZM20.5 38.5H15.5V33.5H20.5V38.5ZM26.5 38.5H21.5V33.5H26.5V38.5ZM32.5 38.5H27.5V33.5H32.5V38.5ZM38.5 26.5H33.5V21.5H38.5V26.5ZM38.5 20.5H33.5V15.5H38.5V20.5ZM33.5 14.5V9.5H38.5V14.5H33.5Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_144_4068">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-alignment">
+      <g class="cls-2">
+        <path d="M33.5,8.5H8.5v31h31V8.5h-6ZM27.5,9.5h5v5h-5v-5ZM32.5,20.5h-5v-5h5v5ZM15.5,27.5h5v5h-5v-5ZM26.5,20.5h-5v-5h5v5ZM15.5,21.5h5v5h-5v-5ZM32.5,26.5h-5v-5h5v5ZM21.5,9.5h5v5h-5v-5ZM9.5,15.5h5v5h-5v-5ZM9.5,21.5h5v5h-5v-5ZM9.5,27.5h5v5h-5v-5ZM14.5,38.5h-5v-5h5v5ZM20.5,38.5h-5v-5h5v5ZM26.5,38.5h-5v-5h5v5ZM32.5,38.5h-5v-5h5v5ZM38.5,26.5h-5v-5h5v5ZM38.5,20.5h-5v-5h5v5ZM33.5,9.5h5v5h-5v-5Z"/>
+      </g>
+    </g>
+  </g>
 </svg>

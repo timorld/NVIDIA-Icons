@@ -1,10 +1,24 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_24_195)">
-<path d="M39.5903 29.5L38.3901 35.5H43.6099L42.4097 29.5H41.5V15.5H4.5V20.5H10.5V32.6401L27.5894 28.3681L35.5 31.7583V20.5H40.5V29.5H39.5903ZM34.5 30.2417L29.1926 27.9673L34.5 26.6401V30.2417ZM34.5 25.5V25.6094L11.5 31.3594V20.5H34.5V25.5ZM35.5 19.5V19.4995H34.5V19.5H5.5V16.5H40.5V19.5H35.5ZM41.5903 30.5L42.3901 34.5H39.6099L40.4097 30.5H41.5903Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_24_195">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-graduation-cap-education">
+      <g class="cls-2">
+        <path d="M39.59,29.5l-1.2,6h5.22l-1.2-6h-.91v-14H4.5v5h6v12.14l17.09-4.27,7.91,3.39v-11.26h5v9h-.91ZM34.5,30.24l-5.31-2.27,5.31-1.33v3.6ZM34.5,25.5v.11l-23,5.75v-10.86h23v5ZM35.5,19.5H5.5v-3h35v3h-5ZM41.59,30.5l.8,4h-2.78l.8-4h1.18Z"/>
+      </g>
+    </g>
+  </g>
 </svg>

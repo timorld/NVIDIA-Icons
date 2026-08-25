@@ -1,14 +1,37 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_24_382)">
-<path d="M39.5 39.5H34.5V40.5H40.5V34.5H39.5V39.5Z" fill="black"/>
-<path d="M28.5 14.1631C28.4335 13.0333 27.9232 11.9755 27.0804 11.2202C26.2375 10.4648 25.1303 10.0731 24 10.1304C22.8697 10.0731 21.7625 10.4648 20.9196 11.2202C20.0768 11.9755 19.5665 13.0333 19.5 14.1631V14.5288H14.5288V37.4712H33.4712V14.5288H28.5V14.1631ZM20.5 14.1631C20.5673 13.2989 20.9723 12.4959 21.6275 11.9283C22.2826 11.3606 23.135 11.0739 24 11.1304C24.865 11.0739 25.7174 11.3606 26.3725 11.9283C27.0277 12.4959 27.4327 13.2989 27.5 14.1631V14.5288H20.5V14.1631ZM15.4712 36.5288V34.5H32.5288V36.5288H15.4712ZM32.5288 15.4712V33.5H15.4712V15.4712H19.5V18.5H20.5V15.4712H27.5V18.5H28.5V15.4712H32.5288Z" fill="black"/>
-<path d="M34.5 7.5V8.5H39.5V13.5H40.5V7.5H34.5Z" fill="black"/>
-<path d="M8.5 34.5H7.5V40.5H13.5V39.5H8.5V34.5Z" fill="black"/>
-<path d="M7.5 13.5H8.5V8.5H13.5V7.5H7.5V13.5Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_24_382">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-retail">
+      <g class="cls-3">
+        <polygon points="39.5 39.5 34.5 39.5 34.5 40.5 40.5 40.5 40.5 34.5 39.5 34.5 39.5 39.5"/>
+        <g class="cls-2">
+          <path d="M28.5,14.16c0-2.22-2.02-4.03-4.5-4.03s-4.5,1.81-4.5,4.03v.37h-4.97v22.94h18.94V14.53h-4.97v-.37ZM20.5,14.16c0-1.67,1.57-3.03,3.5-3.03s3.5,1.36,3.5,3.03v.37h-7v-.37ZM15.47,34.5h17.06v2.03H15.47v-2.03ZM32.53,15.47v18.03H15.47V15.47h4.03v3.03h1v-3.03h7v3.03h1v-3.03h4.03Z"/>
+          <polygon points="34.5 7.5 34.5 8.5 39.5 8.5 39.5 13.5 40.5 13.5 40.5 7.5 34.5 7.5"/>
+          <polygon points="8.5 34.5 7.5 34.5 7.5 40.5 13.5 40.5 13.5 39.5 8.5 39.5 8.5 34.5"/>
+          <polygon points="7.5 13.5 8.5 13.5 8.5 8.5 13.5 8.5 13.5 7.5 7.5 7.5 7.5 13.5"/>
+        </g>
+      </g>
+    </g>
+  </g>
 </svg>

@@ -1,10 +1,24 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_144_3178)">
-<path d="M37.5 34.5V30.5H33.5V27.5H39.5V20.5H33.5V16.5H24.5V14.5H30.5V7.5H17.5V14.5H23.5V16.5H14.5V20.5H8.5V27.5H14.5V30.5H10.5V34.5H7.5V40.5H14.5V34.5H11.5V31.5H18.5V34.5H15.5V40.5H22.5V34.5H19.5V30.5H15.5V27.5H21.5V20.5H15.5V17.5H32.5V20.5H26.5V27.5H32.5V30.5H28.5V34.5H25.5V40.5H32.5V34.5H29.5V31.5H36.5V34.5H33.5V40.5H40.5V34.5H37.5ZM18.5 8.5H29.5V13.5H18.5V8.5ZM13.5 39.5H8.5V35.5H13.5V39.5ZM21.5 39.5H16.5V35.5H21.5V39.5ZM20.5 26.5H9.5V21.5H20.5V26.5ZM27.5 21.5H38.5V26.5H27.5V21.5ZM31.5 39.5H26.5V35.5H31.5V39.5ZM39.5 39.5H34.5V35.5H39.5V39.5Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_144_3178">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-inference-classical-machine-learning">
+      <g class="cls-2">
+        <path d="M37.5,34.5v-4h-4v-3h6v-7h-6v-4h-9v-2h6v-7h-13v7h6v2h-9v4h-6v7h6v3h-4v4h-3v6h7v-6h-3v-3h7v3h-3v6h7v-6h-3v-4h-4v-3h6v-7h-6v-3h17v3h-6v7h6v3h-4v4h-3v6h7v-6h-3v-3h7v3h-3v6h7v-6h-3ZM18.5,8.5h11v5h-11v-5ZM13.5,39.5h-5v-4h5v4ZM21.5,39.5h-5v-4h5v4ZM20.5,26.5h-11v-5h11v5ZM27.5,21.5h11v5h-11v-5ZM31.5,39.5h-5v-4h5v4ZM39.5,39.5h-5v-4h5v4Z"/>
+      </g>
+    </g>
+  </g>
 </svg>

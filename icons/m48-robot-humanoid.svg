@@ -1,11 +1,72 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_1318_1038)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M35.9736 23.5L37.5 29.27V40.5H36.5V34.5H32.5V40.5H31.5V24.5H16.5L16.5015 40.5005H15.5015L15.501 34.5H11.5V40.5H10.5L10.509 34.5H10.5V33.5H10.5105L10.5171 29.1406L12.0264 23.5H20.5V21.5H19.686L18.6318 17.5H16.5V10.5H18.5V9.79297L20.793 7.5H27.207L29.5 9.79297L29.4983 10.5H31.5V17.5H29.3838L28.3135 21.5H27.5V23.5H35.9736ZM11.5 33.5H15.5007L15.5 24.5H12.794L11.5 29.3359V33.5ZM30.5 11.5H29.5V16.5H30.5V11.5ZM18.5 11.5H17.5V16.5H18.5V11.5ZM19.5 16.9346L20.4536 20.5H27.5459L28.5 16.9341V10.207L26.793 8.5H21.207L19.5 10.207V16.9346ZM21.5 21.5V23.5H26.5V21.5H21.5ZM32.5 24.5V33.5H36.5V29.3359L35.2061 24.5H32.5Z" fill="black"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M29.5 31.5H18.5V26.5H29.5V31.5ZM28.5 27.5H19.5V30.5H28.5V27.5Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_1318_1038">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath-4);
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-5 {
+        opacity: 0;
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-2" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-2" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="cls-2" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect class="cls-2" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-robot-humanoid">
+      <g class="cls-7">
+        <g class="cls-3">
+          <g class="cls-6">
+            <path d="M22.5,13.5c0-.55-.45-1-1-1s-1,.45-1,1,.45,1,1,1,1-.45,1-1"/>
+            <path d="M26.5,14.5c.55,0,1-.45,1-1s-.45-1-1-1-1,.45-1,1,.45,1,1,1"/>
+            <path d="M31,23.5h-2.5v.05c-.17-.02-.33-.05-.5-.05h-.5v-3.26c1.22-1.01,2-2.53,2-4.24v-5c0-1.93-1.57-3.5-3.5-3.5h-4c-1.93,0-3.5,1.57-3.5,3.5v5c0,1.7.78,3.23,2,4.24v3.26h-.5c-.17,0-.33.03-.5.05v-.05h-2.5c-3.58,0-6.5,2.92-6.5,6.5v10.5h1v-10.29l2.29,2.29h1.71v8h1v-12.5c0-.93.36-1.81,1.02-2.47.66-.66,1.54-1.03,2.48-1.03h8c1.93,0,3.5,1.57,3.5,3.5v12.5s1,0,1,0v-8h1.71l2.29-2.29v10.29h1v-10.5c0-3.58-2.92-6.5-6.5-6.5M15.5,28v3.5h-1.29l-2.6-2.6c.51-2.51,2.73-4.4,5.39-4.4h.2c-.13.1-.27.2-.39.32-.85.85-1.32,1.98-1.32,3.18M19.5,16v-5c0-1.38,1.12-2.5,2.5-2.5h4c1.38,0,2.5,1.12,2.5,2.5v5c0,2.48-2.02,4.5-4.5,4.5s-4.5-2.02-4.5-4.5M21.5,20.89c.75.39,1.6.61,2.5.61s1.75-.22,2.5-.61v2.61h-5v-2.61ZM33.79,31.5h-1.29v-3.5c0-1.42-.67-2.67-1.71-3.5h.21c2.66,0,4.88,1.9,5.39,4.4l-2.6,2.6Z"/>
+            <path d="M18.5,31.5h11v-4h-11v4ZM19.5,28.5h9v2h-9v-2Z"/>
+            <g class="cls-5">
+              <g class="cls-4">
+                <g class="cls-5">
+                  <g class="cls-1">
+                    <rect width="48" height="48"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
 </svg>

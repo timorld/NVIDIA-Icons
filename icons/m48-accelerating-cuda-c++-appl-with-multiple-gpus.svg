@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-accelerating-cuda-c_-appl-with-multiple-gpus" data-name="m48-accelerating-cuda-c++-appl-with-multiple-gpus">
+      <g class="cls-2">
+        <polygon points="25.71 30 23.71 28 25.71 26 24.29 26 22.29 28 24.29 30 25.71 30"/>
+        <polygon points="30.29 26 32.29 28 30.29 30 31.71 30 33.71 28 31.71 26 30.29 26"/>
+        <polygon points="30.06 25 28.94 25 25.94 31 27.06 31 30.06 25"/>
+        <polygon points="10.5 9.5 10.5 10.5 42.5 10.5 42.5 30.5 43.5 30.5 43.5 9.5 10.5 9.5"/>
+        <polygon points="7.5 13.5 39.5 13.5 39.5 33.5 40.5 33.5 40.5 12.5 7.5 12.5 7.5 13.5"/>
+        <path d="M4.5,19.5v4h1v-3h31v15h-16v1h17V15.5H4.5v4ZM5.5,16.5h31v2.99H5.5v-2.99Z"/>
+        <rect x="33.49" y="17.5" width="2" height="1"/>
+        <rect x="30.5" y="17.5" width="2" height="1"/>
+        <rect x="27.5" y="17.5" width="2" height="1"/>
+        <path d="M8.82,24.5h-4.32v15h15v-15h-10.68ZM18.5,25.5v3.63l-.54.17v5.4l.54.17v3.63h-3.56l-.24-.78h-5.4l-.24.78h-3.56v-3.63l.53-.17v-5.4l-.53-.17v-3.63h3.63l.17.54h5.4l.17-.54h3.63Z"/>
+        <rect x="7.61" y="34.61" width="1.78" height="1.78"/>
+        <rect x="7.61" y="32.27" width="1.78" height="1.78"/>
+        <rect x="7.61" y="29.94" width="1.78" height="1.78"/>
+        <rect x="7.61" y="27.61" width="1.78" height="1.78"/>
+        <rect x="9.94" y="34.61" width="1.78" height="1.78"/>
+        <rect x="9.94" y="32.27" width="1.78" height="1.78"/>
+        <rect x="9.94" y="29.94" width="1.78" height="1.78"/>
+        <rect x="9.94" y="27.61" width="1.78" height="1.78"/>
+        <rect x="12.28" y="34.61" width="1.78" height="1.78"/>
+        <rect x="12.28" y="32.27" width="1.78" height="1.78"/>
+        <rect x="12.28" y="29.94" width="1.78" height="1.78"/>
+        <rect x="12.28" y="27.61" width="1.78" height="1.78"/>
+        <rect x="14.61" y="34.61" width="1.78" height="1.78"/>
+        <rect x="14.61" y="32.27" width="1.78" height="1.78"/>
+        <rect x="14.61" y="29.94" width="1.78" height="1.78"/>
+        <rect x="14.72" y="27.5" width="1.78" height="1.78"/>
+      </g>
+    </g>
+  </g>
+</svg>

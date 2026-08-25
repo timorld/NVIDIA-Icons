@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-4 {
+        opacity: 0;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-document-part-specification">
+      <g class="cls-6">
+        <g class="cls-2">
+          <polygon points="10.5 11.21 16.21 5.5 30.5 5.5 30.5 7.5 31.5 7.5 31.5 4.5 15.79 4.5 9.5 10.79 9.5 34.5 12.5 34.5 12.5 33.5 10.5 33.5 10.5 11.21"/>
+          <polygon points="14.5 15.21 20.21 9.5 34.5 9.5 34.5 11.5 35.5 11.5 35.5 8.5 19.79 8.5 13.5 14.79 13.5 38.5 16.5 38.5 16.5 37.5 14.5 37.5 14.5 15.21"/>
+          <path d="M23.79,12.5l-6.29,6.29v23.71h22V12.5h-15.71ZM23.5,14.21v4.29h-4.29l4.29-4.29ZM38.5,41.5h-20v-22h6v-6h14v28Z"/>
+          <rect x="25.5" y="23.5" width="11" height="1"/>
+          <rect x="25.5" y="28.5" width="11" height="1"/>
+          <rect x="25.5" y="33.5" width="11" height="1"/>
+          <path d="M20.5,25.5h3v-3h-3v3ZM21.5,23.5h1v1h-1v-1Z"/>
+          <path d="M20.5,30.5h3v-3h-3v3ZM21.5,28.5h1v1h-1v-1Z"/>
+          <path d="M20.5,35.5h3v-3h-3v3ZM21.5,33.5h1v1h-1v-1Z"/>
+          <g class="cls-5">
+            <g class="cls-4">
+              <g class="cls-3">
+                <rect width="48" height="48"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

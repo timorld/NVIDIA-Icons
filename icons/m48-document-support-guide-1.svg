@@ -1,10 +1,24 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_144_2372)">
-<path d="M41.577 12.5V10.423H24.761L24 11.184L23.239 10.423H6.423V12.5H4.5V35.5H21.616L21.884 36.5H26.152L26.42 35.5H43.5V12.5H41.577ZM25.239 11.577H40.423V32.423H24.823L24.575 32.658V12.239L25.239 11.577ZM7.577 11.577H22.761L23.423 12.239V32.606L23.239 32.423H7.577V11.577ZM42.5 34.5H25.652L25.384 35.5H22.652L22.384 34.5H5.5V13.5H6.423V33.577H22.761L23.989 34.806L25.289 33.577H41.577V13.5H42.5V34.5ZM12.5 13.5H9.5V16.5H12.5V13.5ZM11.5 15.5H10.5V14.5H11.5V15.5ZM22 15.5H14V14.5H22V15.5ZM12.5 17.5H9.5V20.5H12.5V17.5ZM11.5 19.5H10.5V18.5H11.5V19.5ZM22 19.5H14V18.5H22V19.5ZM29.5 23.5H26.5V26.5H29.5V23.5ZM28.5 25.5H27.5V24.5H28.5V25.5ZM31 24.5H38V25.5H31V24.5ZM29.5 27.5H26.5V30.5H29.5V27.5ZM28.5 29.5H27.5V28.5H28.5V29.5ZM31 28.5H38V29.5H31V28.5ZM9.5 30.5H22.5V21.5H9.5V30.5ZM10.5 22.5H21.5V29.5H10.5V22.5ZM38.5 13.5H26.5V22.5H38.5V13.5ZM37.5 21.5H27.5V14.5H37.5V21.5Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_144_2372">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-document-support-guide-1">
+      <g class="cls-2">
+        <path d="M41.58,12.5v-2.08h-16.82l-.76.76-.76-.76H6.42v2.08h-1.92v23h17.12l.27,1h4.27l.27-1h17.08V12.5h-1.92ZM25.24,11.58h15.18v20.85h-15.6l-.25.23V12.24l.66-.66ZM7.58,11.58h15.18l.66.66v20.37l-.18-.18H7.58V11.58ZM42.5,34.5h-16.85l-.27,1h-2.73l-.27-1H5.5V13.5h.92v20.08h16.34l1.23,1.23,1.3-1.23h16.29V13.5h.92v21ZM12.5,13.5h-3v3h3v-3ZM11.5,15.5h-1v-1h1v1ZM22,15.5h-8v-1h8v1ZM12.5,17.5h-3v3h3v-3ZM11.5,19.5h-1v-1h1v1ZM22,19.5h-8v-1h8v1ZM29.5,23.5h-3v3h3v-3ZM28.5,25.5h-1v-1h1v1ZM31,24.5h7v1h-7v-1ZM29.5,27.5h-3v3h3v-3ZM28.5,29.5h-1v-1h1v1ZM31,28.5h7v1h-7v-1ZM9.5,30.5h13v-9h-13v9ZM10.5,22.5h11v7h-11v-7ZM38.5,13.5h-12v9h12v-9ZM37.5,21.5h-10v-7h10v7Z"/>
+      </g>
+    </g>
+  </g>
 </svg>

@@ -1,10 +1,38 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_144_3153)">
-<path d="M40.5 17.5V40.5H23.5V23.5H24.5V39.5H39.5V18.5H31.5V17.5H40.5ZM37.5 26.5H26.5V27.5H37.5V26.5ZM37.5 29.5H26.5V30.5H37.5V29.5ZM26.5 33.5H32.5V32.5H26.5V33.5ZM17.293 29L18.793 30.5H14.5V24.5H13.5V31.5H18.793L17.293 33H18.707L20.707 31L18.707 29H17.293ZM30.5 22.5H7.5V7.5H30.5V22.5ZM29.5 8.5H8.5V21.5H29.5V8.5ZM15.5 10.5H14.5V19.5H15.5V10.5ZM13.5 12.5H12.5V17.5H13.5V12.5ZM11.5 13.5H10.5V16.5H11.5V13.5ZM17.5 12.5H16.5V17.5H17.5V12.5ZM19.5 13.5H18.5V16.5H19.5V13.5ZM23.5 10.5H22.5V19.5H23.5V10.5ZM21.5 12.5H20.5V17.5H21.5V12.5ZM25.5 12.5H24.5V17.5H25.5V12.5ZM27.5 13.5H26.5V16.5H27.5V13.5Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_144_3153">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="m48-speech-recognition">
+      <g class="cls-2">
+        <polygon points="32.5 17.5 32.5 18.5 39.5 18.5 39.5 39.5 24.5 39.5 24.5 24.5 23.5 24.5 23.5 40.5 40.5 40.5 40.5 17.5 32.5 17.5"/>
+        <rect x="26.5" y="26.5" width="11" height="1"/>
+        <rect x="26.5" y="29.5" width="11" height="1"/>
+        <rect x="26.5" y="32.5" width="6" height="1"/>
+        <polygon points="17.29 29 18.79 30.5 14.5 30.5 14.5 29 14.5 24.5 13.5 24.5 13.5 31.5 18.79 31.5 17.29 33 18.71 33 20.71 31 18.71 29 17.29 29"/>
+        <path d="M30.5,7.5H7.5v15h23V7.5ZM29.5,21.5H8.5v-13h21v13Z"/>
+        <rect x="14.5" y="10.5" width="1" height="9"/>
+        <rect x="12.5" y="12.5" width="1" height="5"/>
+        <rect x="10.5" y="13.5" width="1" height="3"/>
+        <rect x="16.5" y="12.5" width="1" height="5"/>
+        <rect x="18.5" y="13.5" width="1" height="3"/>
+        <rect x="22.5" y="10.5" width="1" height="9"/>
+        <rect x="20.5" y="12.5" width="1" height="5"/>
+        <rect x="24.5" y="12.5" width="1" height="5"/>
+        <rect x="26.5" y="13.5" width="1" height="3"/>
+      </g>
+    </g>
+  </g>
 </svg>
