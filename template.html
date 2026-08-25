@@ -876,9 +876,22 @@ function getCenteredViewBox(pathData) {
 // selected, or the call fails for any reason.
 const SELECTION_FIT_SHRINK = 0.85; // icon sized at 85% of the selected shape
 
+// Diagnostic toast for a real failure (API missing / addSvg missing / etc.)
+// only fires once per session — after that it just falls back quietly, so a
+// permanently-unsupported host doesn't spam a toast on every single insert.
+let selectionFitWarned = false;
+
 async function tryInsertMatchingSelection(icon, svg) {
-  if (typeof PowerPoint === 'undefined') return false;
-  if (!Office.context.requirements || !Office.context.requirements.isSetSupported('PowerPointApi', '1.3')) return false;
+  if (typeof PowerPoint === 'undefined') {
+    console.warn('[icon-lib] PowerPoint JS API (PowerPoint.run) not available in this host');
+    if (!selectionFitWarned) { selectionFitWarned = true; showToast('Selection-fit insert unavailable here (old Office build) — used default insert', 'error'); }
+    return false;
+  }
+  if (!Office.context.requirements || !Office.context.requirements.isSetSupported('PowerPointApi', '1.3')) {
+    console.warn('[icon-lib] PowerPointApi 1.3 not supported on this host');
+    if (!selectionFitWarned) { selectionFitWarned = true; showToast('Selection-fit insert unavailable here (old Office build) — used default insert', 'error'); }
+    return false;
+  }
 
   try {
     let handled = false;
@@ -899,6 +912,9 @@ async function tryInsertMatchingSelection(icon, svg) {
       await context.sync();
       if (selectedSlides.items.length === 0) return;
 
+      if (typeof selectedSlides.items[0].shapes.addSvg !== 'function') {
+        throw new Error('shapes.addSvg is not available in this PowerPoint JS API version');
+      }
       selectedSlides.items[0].shapes.addSvg(svg, { left, top, width: size, height: size });
       await context.sync();
       handled = true;
@@ -906,6 +922,12 @@ async function tryInsertMatchingSelection(icon, svg) {
     if (handled) showToast('✓ ' + icon.displayName + ' inserted to match selection', 'success');
     return handled;
   } catch (e) {
+    console.error('[icon-lib] selection-fit insert failed:', e);
+    if (!selectionFitWarned) {
+      selectionFitWarned = true;
+      const msg = (e && e.message) ? e.message : String(e);
+      showToast('Selection-fit insert failed (' + msg + ') — used default insert', 'error');
+    }
     return false;
   }
 }
