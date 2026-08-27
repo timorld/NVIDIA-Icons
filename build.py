@@ -9,6 +9,7 @@ commit + push both icons/ and taskpane.html.
 import json
 import os
 import re
+import xml.etree.ElementTree as ET
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ICONS_DIR = os.path.join(HERE, "icons")
@@ -80,8 +81,11 @@ def polygon_to_path_d(points):
 
 
 def get_attr(attrs, name, default=0.0):
-    m = re.search(rf'\b{name}="(-?\d*\.?\d+)"', attrs)
-    return float(m.group(1)) if m else default
+    v = attrs.get(name)
+    try:
+        return float(v) if v is not None else default
+    except ValueError:
+        return default
 
 
 def rect_to_path_d(attrs):
@@ -111,6 +115,93 @@ def ellipse_to_path_d(attrs):
             f"A {rx},{ry} 0 1,0 {cx - rx},{cy} Z")
 
 
+def parse_css_classes(svg_text):
+    """Maps a CSS class name (from a <style> block, e.g. '.cls-5 { opacity: 0; }')
+    to its declared properties, so hidden helper shapes can be recognized."""
+    classes = {}
+    style_match = re.search(r"<style[^>]*>(.*?)</style>", svg_text, re.S)
+    if not style_match:
+        return classes
+    for rule in re.finditer(r"\.([\w-]+)\s*\{([^}]*)\}", style_match.group(1)):
+        cls_name, body = rule.group(1), rule.group(2)
+        props = {}
+        for decl in body.split(";"):
+            if ":" not in decl:
+                continue
+            k, v = decl.split(":", 1)
+            props[k.strip()] = v.strip()
+        classes[cls_name] = props
+    return classes
+
+
+def props_are_hidden(props):
+    if not props:
+        return False
+    return (props.get("opacity", "").strip() == "0"
+            or props.get("display", "").strip() == "none"
+            or props.get("visibility", "").strip() == "hidden")
+
+
+def element_is_hidden(el, class_styles):
+    """True if this element's own class/style (not ancestors) hides it."""
+    inline = {}
+    for decl in el.get("style", "").split(";"):
+        if ":" in decl:
+            k, v = decl.split(":", 1)
+            inline[k.strip()] = v.strip()
+    if props_are_hidden(inline):
+        return True
+    for cls in el.get("class", "").split():
+        if props_are_hidden(class_styles.get(cls)):
+            return True
+    return False
+
+
+def local_tag(tag):
+    return tag.rsplit("}", 1)[-1]
+
+
+def extract_shapes(svg_text):
+    """Walks the real SVG DOM (not a flat regex scan) so that shapes hidden
+    via an ancestor's opacity:0/display:none/visibility:hidden — a common
+    pattern for leftover artboard/helper rects in these exports — are
+    correctly excluded, and shapes inside <defs>/<clipPath> (never directly
+    rendered) are too. Returns a list of path 'd' strings."""
+    class_styles = parse_css_classes(svg_text)
+    root = ET.fromstring(svg_text)
+    d_parts = []
+
+    def walk(el, hidden):
+        tag = local_tag(el.tag)
+        if tag in ("defs", "clipPath"):
+            return  # never rendered directly
+        hidden = hidden or element_is_hidden(el, class_styles)
+        if not hidden:
+            if tag == "path" and el.get("d"):
+                d_parts.append(el.get("d"))
+            elif tag in ("polygon", "polyline") and el.get("points"):
+                d = polygon_to_path_d(el.get("points"))
+                if d:
+                    d_parts.append(d)
+            elif tag == "rect":
+                d = rect_to_path_d(el.attrib)
+                if d:
+                    d_parts.append(d)
+            elif tag == "circle":
+                d = circle_to_path_d(el.attrib)
+                if d:
+                    d_parts.append(d)
+            elif tag == "ellipse":
+                d = ellipse_to_path_d(el.attrib)
+                if d:
+                    d_parts.append(d)
+        for child in el:
+            walk(child, hidden)
+
+    walk(root, False)
+    return d_parts
+
+
 def load_icons():
     entries = []
     svg_paths = {}
@@ -118,20 +209,14 @@ def load_icons():
         name = os.path.splitext(fn)[0]
         with open(full_path, encoding="utf-8", errors="ignore") as fh:
             text = fh.read()
-        # Strip <clipPath>...</clipPath> defs first — the shapes inside them
-        # (e.g. a full-canvas <rect> used to clip the artwork) aren't drawn
-        # and must not be treated as visible icon geometry.
-        visible_text = re.sub(r"<clipPath\b.*?</clipPath>", "", text, flags=re.S)
-
-        paths = re.findall(r'<path[^>]*\bd="([^"]+)"', visible_text)
-        polygons = re.findall(r'<(?:polygon|polyline)[^>]*\bpoints="([^"]+)"', visible_text)
-        rects = [rect_to_path_d(a) for a in re.findall(r"<rect\b([^>]*)/?>", visible_text)]
-        circles = [circle_to_path_d(a) for a in re.findall(r"<circle\b([^>]*)/?>", visible_text)]
-        ellipses = [ellipse_to_path_d(a) for a in re.findall(r"<ellipse\b([^>]*)/?>", visible_text)]
-        shapes = [s for s in (rects + circles + ellipses) if s]
-        d = " ".join(paths + [polygon_to_path_d(p) for p in polygons] + shapes)
+        try:
+            d_parts = extract_shapes(text)
+        except ET.ParseError as e:
+            print(f"  WARNING: {fn} is not well-formed XML ({e}), skipping")
+            continue
+        d = " ".join(d_parts)
         if not d:
-            print(f"  WARNING: no <path d=...> found in {fn}, skipping")
+            print(f"  WARNING: no visible shapes found in {fn}, skipping")
             continue
         key = f"p{idx}"
         svg_paths[key] = d
