@@ -77,7 +77,7 @@
     }
     #searchInput {
       width: 100%;
-      padding: 7px 8px 7px 30px;
+      padding: 7px 26px 7px 30px;
       border: 1px solid var(--border);
       border-radius: 6px;
       font-size: 12px;
@@ -85,6 +85,27 @@
       transition: border-color 0.15s;
     }
     #searchInput:focus { border-color: var(--nvidia-green); }
+
+    .search-clear-btn {
+      position: absolute;
+      right: 6px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 16px;
+      height: 16px;
+      border: none;
+      background: #ccc;
+      color: #fff;
+      border-radius: 50%;
+      font-size: 11px;
+      line-height: 1;
+      cursor: pointer;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+    }
+    .search-clear-btn:hover { background: #999; }
 
     .filters-row {
       display: flex;
@@ -104,25 +125,35 @@
     }
     #categorySelect:focus { border-color: var(--nvidia-green); }
 
-    .size-btns {
+    /* Size slider */
+    .size-control {
       display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .size-step-btn {
+      width: 20px;
+      height: 20px;
+      flex: 0 0 auto;
       border: 1px solid var(--border);
-      border-radius: 6px;
-      overflow: hidden;
-    }
-    .size-btn {
-      border: none;
+      border-radius: 4px;
       background: #fff;
-      padding: 5px 8px;
-      font-size: 11px;
-      font-weight: 600;
-      cursor: pointer;
       color: #666;
-      transition: background 0.15s, color 0.15s;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 1;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
     }
-    .size-btn:not(:last-child) { border-right: 1px solid var(--border); }
-    .size-btn.active { background: var(--nvidia-green); color: #fff; }
-    .size-btn:hover:not(.active) { background: #f5f5f5; }
+    .size-step-btn:hover { background: #f5f5f5; border-color: var(--nvidia-green); color: var(--nvidia-green); }
+    #sizeSlider {
+      width: 64px;
+      accent-color: var(--nvidia-green);
+      cursor: pointer;
+    }
 
     /* Results bar */
     .results-bar {
@@ -163,9 +194,6 @@
       display: grid;
       gap: 6px;
     }
-    .icon-grid.size-small  { grid-template-columns: repeat(5, 1fr); }
-    .icon-grid.size-medium { grid-template-columns: repeat(4, 1fr); }
-    .icon-grid.size-large  { grid-template-columns: repeat(3, 1fr); }
 
     /* Icon card */
     .icon-card {
@@ -175,7 +203,7 @@
       gap: 4px;
       padding: 6px 4px;
       border: 1px solid var(--border);
-      border-radius: 7px;
+      border-radius: 0;
       background: #fff;
       cursor: pointer;
       transition: border-color 0.15s, background 0.15s, box-shadow 0.15s;
@@ -197,10 +225,6 @@
     }
     .icon-card:hover .icon-svg-wrap { color: var(--nvidia-green); }
 
-    .icon-grid.size-small  .icon-svg-wrap { width: 28px; height: 28px; }
-    .icon-grid.size-medium .icon-svg-wrap { width: 36px; height: 36px; }
-    .icon-grid.size-large  .icon-svg-wrap { width: 44px; height: 44px; }
-
     .icon-svg-wrap svg { width: 100%; height: 100%; }
 
     .icon-label {
@@ -211,7 +235,6 @@
       word-break: break-word;
       width: 100%;
     }
-    .icon-grid.size-small .icon-label { display: none; }
 
     /* Insert (+) button */
     .insert-btn {
@@ -285,7 +308,7 @@
       justify-content: center;
       color: var(--nvidia-dark);
       background: var(--bg);
-      border-radius: 10px;
+      border-radius: 0;
     }
     .detail-icon-wrap svg { width: 100%; height: 100%; }
     .detail-name {
@@ -368,13 +391,14 @@
         </svg>
         <input id="searchInput" type="text"
           placeholder="Search icons… (e.g. car, AI, cloud)">
+        <button id="searchClearBtn" class="search-clear-btn" aria-label="Clear search">✕</button>
       </div>
       <div class="filters-row">
         <select id="categorySelect"></select>
-        <div class="size-btns">
-          <button class="size-btn" data-size="small">S</button>
-          <button class="size-btn active" data-size="medium">M</button>
-          <button class="size-btn" data-size="large">L</button>
+        <div class="size-control">
+          <button class="size-step-btn" id="sizeMinusBtn" aria-label="Decrease icon size">−</button>
+          <input type="range" id="sizeSlider" min="24" max="64" step="4" value="36" aria-label="Icon preview size">
+          <button class="size-step-btn" id="sizePlusBtn" aria-label="Increase icon size">+</button>
         </div>
       </div>
     </div>
@@ -556,7 +580,10 @@ function expandSearchTerms(query) {
 // ── STATE ────────────────────────────────────────────────────────────────────
 let searchQuery = '';
 let selectedCategory = 'all';
-let iconSize = 'medium';
+let iconSizePx = 36;
+const ICON_SIZE_MIN = 24;
+const ICON_SIZE_MAX = 64;
+const ICON_SIZE_STEP = 4;
 let officeReady = false;
 
 // ── CATEGORIES ───────────────────────────────────────────────────────────────
@@ -613,7 +640,7 @@ const browseView = document.getElementById('browseView');
 const detailView = document.getElementById('detailView');
 
 function makeSVG(pathData, size) {
-  const dim = size === 'small' ? 28 : size === 'medium' ? 36 : size === 'large' ? 44 : size === 'detail' ? 140 : 36;
+  const dim = size === 'detail' ? 140 : size;
   return `<svg viewBox="0 0 48 48" width="${dim}" height="${dim}" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="${pathData}" fill="currentColor"/>
   </svg>`;
@@ -664,15 +691,17 @@ function render() {
       section.appendChild(title);
 
       const sectionGrid = document.createElement('div');
-      sectionGrid.className = `icon-grid size-${iconSize}`;
+      sectionGrid.className = 'icon-grid';
+      sectionGrid.style.gridTemplateColumns = `repeat(auto-fill, minmax(${iconSizePx + 28}px, 1fr))`;
+      const showLabel = iconSizePx >= 32;
       items.forEach(icon => {
         const pathData = svgPaths[icon.svgPathKey] || '';
         const card = document.createElement('div');
         card.className = 'icon-card';
         card.title = icon.displayName;
         card.innerHTML = `
-          <div class="icon-svg-wrap">${makeSVG(pathData, iconSize)}</div>
-          <div class="icon-label">${icon.displayName}</div>
+          <div class="icon-svg-wrap" style="width:${iconSizePx}px;height:${iconSizePx}px">${makeSVG(pathData, iconSizePx)}</div>
+          ${showLabel ? `<div class="icon-label">${icon.displayName}</div>` : ''}
         `;
         card.appendChild(makeInsertBtn(icon, pathData));
         card.addEventListener('click', () => openDetail(icon, pathData));
@@ -1025,8 +1054,20 @@ function showToast(msg, type = '') {
 }
 
 // ── EVENT LISTENERS ───────────────────────────────────────────────────────────
-document.getElementById('searchInput').addEventListener('input', e => {
+const searchInput = document.getElementById('searchInput');
+const searchClearBtn = document.getElementById('searchClearBtn');
+
+searchInput.addEventListener('input', e => {
   searchQuery = e.target.value;
+  searchClearBtn.style.display = searchQuery ? 'flex' : 'none';
+  render();
+});
+
+searchClearBtn.addEventListener('click', () => {
+  searchQuery = '';
+  searchInput.value = '';
+  searchClearBtn.style.display = 'none';
+  searchInput.focus();
   render();
 });
 
@@ -1035,19 +1076,25 @@ catSelect.addEventListener('change', e => {
   render();
 });
 
-document.querySelectorAll('.size-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    iconSize = btn.dataset.size;
-    document.querySelectorAll('.size-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    render();
-  });
-});
+const sizeSlider = document.getElementById('sizeSlider');
+const sizeMinusBtn = document.getElementById('sizeMinusBtn');
+const sizePlusBtn = document.getElementById('sizePlusBtn');
+
+function setIconSizePx(px) {
+  iconSizePx = Math.min(ICON_SIZE_MAX, Math.max(ICON_SIZE_MIN, px));
+  sizeSlider.value = iconSizePx;
+  render();
+}
+
+sizeSlider.addEventListener('input', e => setIconSizePx(parseInt(e.target.value, 10)));
+sizeMinusBtn.addEventListener('click', () => setIconSizePx(iconSizePx - ICON_SIZE_STEP));
+sizePlusBtn.addEventListener('click', () => setIconSizePx(iconSizePx + ICON_SIZE_STEP));
 
 clearBtn.addEventListener('click', () => {
   searchQuery = '';
   selectedCategory = 'all';
-  document.getElementById('searchInput').value = '';
+  searchInput.value = '';
+  searchClearBtn.style.display = 'none';
   catSelect.value = 'all';
   render();
 });
