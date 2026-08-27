@@ -79,6 +79,38 @@ def polygon_to_path_d(points):
     return "M " + " L ".join(coords) + " Z"
 
 
+def get_attr(attrs, name, default=0.0):
+    m = re.search(rf'\b{name}="(-?\d*\.?\d+)"', attrs)
+    return float(m.group(1)) if m else default
+
+
+def rect_to_path_d(attrs):
+    # Corner rounding (rx/ry) is ignored — not used by this icon set, and a
+    # sharp-cornered rect is a harmless approximation if one shows up.
+    x, y = get_attr(attrs, "x"), get_attr(attrs, "y")
+    w, h = get_attr(attrs, "width"), get_attr(attrs, "height")
+    if w <= 0 or h <= 0:
+        return ""
+    return f"M {x},{y} H {x + w} V {y + h} H {x} Z"
+
+
+def circle_to_path_d(attrs):
+    cx, cy, r = get_attr(attrs, "cx"), get_attr(attrs, "cy"), get_attr(attrs, "r")
+    if r <= 0:
+        return ""
+    return (f"M {cx - r},{cy} A {r},{r} 0 1,0 {cx + r},{cy} "
+            f"A {r},{r} 0 1,0 {cx - r},{cy} Z")
+
+
+def ellipse_to_path_d(attrs):
+    cx, cy = get_attr(attrs, "cx"), get_attr(attrs, "cy")
+    rx, ry = get_attr(attrs, "rx"), get_attr(attrs, "ry")
+    if rx <= 0 or ry <= 0:
+        return ""
+    return (f"M {cx - rx},{cy} A {rx},{ry} 0 1,0 {cx + rx},{cy} "
+            f"A {rx},{ry} 0 1,0 {cx - rx},{cy} Z")
+
+
 def load_icons():
     entries = []
     svg_paths = {}
@@ -86,9 +118,18 @@ def load_icons():
         name = os.path.splitext(fn)[0]
         with open(full_path, encoding="utf-8", errors="ignore") as fh:
             text = fh.read()
-        paths = re.findall(r'<path[^>]*\bd="([^"]+)"', text)
-        polygons = re.findall(r'<(?:polygon|polyline)[^>]*\bpoints="([^"]+)"', text)
-        d = " ".join(paths + [polygon_to_path_d(p) for p in polygons])
+        # Strip <clipPath>...</clipPath> defs first — the shapes inside them
+        # (e.g. a full-canvas <rect> used to clip the artwork) aren't drawn
+        # and must not be treated as visible icon geometry.
+        visible_text = re.sub(r"<clipPath\b.*?</clipPath>", "", text, flags=re.S)
+
+        paths = re.findall(r'<path[^>]*\bd="([^"]+)"', visible_text)
+        polygons = re.findall(r'<(?:polygon|polyline)[^>]*\bpoints="([^"]+)"', visible_text)
+        rects = [rect_to_path_d(a) for a in re.findall(r"<rect\b([^>]*)/?>", visible_text)]
+        circles = [circle_to_path_d(a) for a in re.findall(r"<circle\b([^>]*)/?>", visible_text)]
+        ellipses = [ellipse_to_path_d(a) for a in re.findall(r"<ellipse\b([^>]*)/?>", visible_text)]
+        shapes = [s for s in (rects + circles + ellipses) if s]
+        d = " ".join(paths + [polygon_to_path_d(p) for p in polygons] + shapes)
         if not d:
             print(f"  WARNING: no <path d=...> found in {fn}, skipping")
             continue
